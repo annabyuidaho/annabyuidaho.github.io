@@ -1,0 +1,26 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+#profilepic {
+    float: right;
+    width: 25%;
+    height: 25%px;
+   
+} 
