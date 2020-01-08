@@ -9,12 +9,13 @@ header, nav, main, footer {
 }
 
 header, footer {
+    border-radius: 25px;
     background-color: purple;
     color: #fff;
     text-align: center;
 }
 
-header {
+header, footer {
     padding: 1.5rem;
 }
 
@@ -22,5 +23,14 @@ header {
     float: right;
     width: 25%;
     height: 25%px;
-   
+    position: relative; top: -100px;
 } 
+
+hr {
+
+}
+
+footer {
+    text-align: center;
+    ;
+}
