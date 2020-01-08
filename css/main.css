@@ -12,25 +12,22 @@ header, footer {
     border-radius: 25px;
     background-color: purple;
     color: #fff;
-    text-align: center;
+    padding: 1.25rem;
 }
 
-header, footer {
-    padding: 1.5rem;
+header {
+    text-align: center;
 }
 
 #profilepic {
     float: right;
-    width: 25%;
-    height: 25%px;
-    position: relative; top: -100px;
+    width: 20%;
+    height: 20%;
+    position: relative; top: -75px;
 } 
-
-hr {
-
-}
 
 footer {
     text-align: center;
-    ;
 }
+
+
