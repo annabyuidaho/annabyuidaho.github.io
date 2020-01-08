@@ -7,4 +7,4 @@ const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"
 
 /*const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};*/
 
-document.getElementById("datemodified").textContent = new Date(document.lastModified).toDateString("en-US", options);
+document.getElementById("datemodified").textContent = new Date(document.lastModified).toUTCString("en-US", options);
