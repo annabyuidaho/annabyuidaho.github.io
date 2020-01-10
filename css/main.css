@@ -41,3 +41,15 @@ footer {
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+
+ a.footerlink:visited {
+     color:  #a0d8f3;
+ }
+
+ a.footerlink.link {
+     color: #fff;
+ }
+
+ a.footerlink:hover {
+     color: yellow;
+ }
