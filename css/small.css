@@ -12,7 +12,7 @@ header, nav, main, footer {
 }
 
 header, footer {
-    border-radius: 15px;
+    
     background-color: #663a82;
     color: #fff;
     padding: 1.25rem;
@@ -20,7 +20,7 @@ header, footer {
 }
 
 header {
-   
+    
     line-height: 50px;
     text-align: center;
     font-size: 24px;
@@ -29,12 +29,8 @@ header {
 }
 
 #profilepic {
-    float: right;
-    width: 20%;
-    height: 20%;
-    border-top-right-radius: 15px;
-    box-shadow: 0px 0px 50px 0px #3c1361;
-
+    width: 175px;
+   
 } 
 
 footer {
