@@ -6,6 +6,16 @@ body {
     line-height: 1.5;
 }
 
+h1 {
+    font-size: 30px;
+  
+}
+
+h2 {
+    font-size: 18px;
+
+}
+
 header, nav, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
