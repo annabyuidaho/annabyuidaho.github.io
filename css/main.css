@@ -20,8 +20,8 @@ header, footer {
 }
 
 header {
-    max-height: 75px;
-    line-height: 10px;
+   
+    line-height: 50px;
     text-align: center;
     font-size: 24px;
     font-family: 'Merriweather', serif;
