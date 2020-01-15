@@ -4,7 +4,7 @@
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
 
-/*header rules*/
+/*header rules here*/
 header {
     background-color: #d2a679;
     text-align: center;
@@ -12,4 +12,48 @@ header {
     font-family: 'Merriweather', serif;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+}
 
+/*main rules here*/
+
+
+
+section {
+    background-color: #f9f2ec;
+    max-width: 31%;
+    border-radius: 15px;
+
+}
+
+section h3 {
+   background-color: #e6ccb3;
+}
+
+p {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+}
+
+/*img rules here*/
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
