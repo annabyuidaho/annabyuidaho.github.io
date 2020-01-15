@@ -14,11 +14,10 @@ header {
 
 h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 
 /*main rules here*/
-
-
 
 section {
     background-color: #f9f2ec;
