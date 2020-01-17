@@ -26,8 +26,6 @@ main {
 
 section {
     background-color: #f9f2ec;
-    
-    
     border-radius: 15px;
     margin-top: 20px;
 
@@ -60,7 +58,10 @@ img {
 
 /*footer rules here*/
 footer {
+    background-color: #d2a679;
     text-align: center;
+    padding: .5rem 2%;
+    font-family: 'Merriweather', serif;
 }
 
 
