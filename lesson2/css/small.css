@@ -22,6 +22,7 @@ h1, h2, h3, h4 {
 main {
     display: grid; 
     grid-template-columns: 1fr;
+    padding: 20px;
 }
 
 section {
