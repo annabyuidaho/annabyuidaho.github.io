@@ -19,9 +19,15 @@ h1, h2, h3, h4 {
 
 /*main rules here*/
 
+main {
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+
 section {
     background-color: #f9f2ec;
-    max-width: 31%;
+    
+    
     border-radius: 15px;
     margin-top: 20px;
 

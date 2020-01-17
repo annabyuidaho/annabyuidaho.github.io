@@ -1,6 +1,10 @@
 @media only screen and (min-width: 1028px) {
 
-
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
     
     div.news {
         column-count: 3;

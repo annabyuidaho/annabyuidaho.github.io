@@ -1,11 +1,16 @@
 @media only screen and (min-width: 560px) {
 
     .sec1, .sec2, .sec3 {
-        display: inline-block;
-        width: 48%;
-        margin-left: 2%;
+      
+        
         padding-bottom: .5rem;
     }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
 div.news {
     clear: both;
