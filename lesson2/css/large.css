@@ -5,9 +5,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
     }
-    
-    div.news {
-        column-count: 3;
+
+   .sec3 {
+        grid-column: span 1;
     }
-    
+ 
+ 
+   
     } /* end of media query */

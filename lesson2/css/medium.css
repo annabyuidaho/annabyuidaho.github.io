@@ -1,10 +1,6 @@
 @media only screen and (min-width: 560px) {
 
-    .sec1, .sec2, .sec3 {
-      
-        
-        padding-bottom: .5rem;
-    }
+   
 
 main {
     display: grid;
@@ -12,10 +8,8 @@ main {
     grid-gap: 20px;
 }
 
-div.news {
-    clear: both;
-    column-count: 2;
-    column-rule: 1px solid #ddd;
+.sec3 {
+    grid-column: span 2;
 }
 
 
