@@ -49,6 +49,10 @@ nav ul li a {
 	text-align: center;
 }
 
+nav ul li a:link {
+	color: #ab141a;
+}
+
 nav ul li a:visited {
 	color: #ab141a;
 }
