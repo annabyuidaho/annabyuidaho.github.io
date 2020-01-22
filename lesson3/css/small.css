@@ -17,6 +17,14 @@ header h1, header h2 {
 	margin: 0;
 }
 
+header h1 {
+	font-size: 1.75rem;
+}
+
+header h2 {
+	font-size: 1rem;
+}
+
 /*nav rules*/
 nav {
 	background-color: #fff9cc;
