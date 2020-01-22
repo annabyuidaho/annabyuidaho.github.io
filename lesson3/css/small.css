@@ -65,6 +65,10 @@ main {
 	min-height: 10rem;
 }
 
+h1, h2 {
+	font-family: 'Gelasio', serif;
+}
+
 #lrglogo {
 	width: 200px;
 }
@@ -77,9 +81,11 @@ footer {
 	background-color: #ab141a;
 	padding: .5rem 2%;
 	text-align: center;
+	font-family: 'Gelasio', serif;
 }
  footer h3 {
 	 color: #fff
+	 
  }
 
 
