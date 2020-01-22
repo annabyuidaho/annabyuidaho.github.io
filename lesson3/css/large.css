@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1028px) {
+	
+header, nav, main, footer {
+	max-width: 60rem;
+	margin: auto;
+	
+}
+	
+#csimg {
+	width: 100%;
+}
+	
+	
+	
+} /*end of media query*/
