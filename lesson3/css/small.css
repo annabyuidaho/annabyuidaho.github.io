@@ -42,9 +42,15 @@ nav ul li a {
 	display: block;
 	color: #eee
 	padding: .5rem 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 	text-decoration: none;
 	font-size: .9rem;
 	text-align: center;
+}
+
+nav ul li a:visited {
+	color: #ab141a;
 }
 
 nav ul li a:hover {
@@ -59,6 +65,7 @@ nav ul li.active a {
 
 
 
+
 /*main rules*/
 
 main {
@@ -68,6 +75,14 @@ main {
 
 h1, h2 {
 	font-family: 'Gelasio', serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+main li {
+	font-family: 'Open Sans', sans-serif;
 }
 
 #lrglogo {
