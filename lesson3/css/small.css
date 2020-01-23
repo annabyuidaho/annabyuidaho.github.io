@@ -27,6 +27,7 @@ header h2 {
 
 }
 
+
 /*nav rules*/
 nav {
 	background-color: #fff9cc;
@@ -82,6 +83,10 @@ h1, h2 {
 }
 
 p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
 	font-family: 'Open Sans', sans-serif;
 }
 
