@@ -12,9 +12,6 @@ header h2 {
 	font-size: 1.5rem;
 	text-align: left;
 }
-nav ul {
-	margin-left: 2%;
-}	
 
 nav ul { display: flex; }
 nav ul li { flex: 1 1 100%; }
