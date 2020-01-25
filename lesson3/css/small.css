@@ -109,6 +109,13 @@ main li {
 	margin: 0;
 }
 
+#twoz {
+	font-family: 'Gelasio', serif;
+	font-size: 7rem;
+	text-align: center;
+	margin: 0;
+}
+
 #lrglogo {
 	width: 200px;
 }
