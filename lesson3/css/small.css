@@ -1,5 +1,6 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
 
+
 /*header rules*/
 header {
 	background-color: #ab141a;
@@ -78,7 +79,7 @@ main {
 	min-height: 10rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: 'Gelasio', serif;
 }
 
@@ -90,10 +91,17 @@ a {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 main li {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
+
+main ul li {
+	list-style: none;
+}
+
+
 
 #lrglogo {
 	width: 200px;
@@ -101,6 +109,12 @@ main li {
 #csimg {
 	width: 75%;
 }
+
+.tai {
+	width: 150px;
+	float: left;
+	padding: 10px;
+	}
 
 /*footer rules*/
 footer {
