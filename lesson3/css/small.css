@@ -103,7 +103,11 @@ main li {
 	font-weight: bold;
 }
 
-
+ul li.listans {
+	list-style-type: none;
+	font-weight: normal;
+	padding: 1rem 0;
+	}
 
 #p1 {
 	margin: 0;
