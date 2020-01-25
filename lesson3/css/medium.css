@@ -17,8 +17,10 @@ nav ul { display: flex; }
 nav ul li { flex: 1 1 100%; }
 
 nav ul li a {
-	padding: .5rem 1rem;
+	padding: .5rem;
 }
+
+
 
 
 	
