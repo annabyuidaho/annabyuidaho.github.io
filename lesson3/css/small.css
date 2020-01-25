@@ -90,6 +90,7 @@ p {
 .personas {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+	
 }
 
 
@@ -119,7 +120,7 @@ main ul li {
 .tai {
 	width: 150px;
 	float: left;
-	padding: 10px;
+	padding: 0 10px 0 0;
 	}
 
 /*footer rules*/
