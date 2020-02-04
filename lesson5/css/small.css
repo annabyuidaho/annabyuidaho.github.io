@@ -134,9 +134,11 @@ section p {
 }
 
 #prestmap {
-	
+	float: right;
 	width: 200px;
 }
+
+
 
 /*footer rules*/
 div#wrapFoot {
