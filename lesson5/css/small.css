@@ -1,0 +1,166 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*header rules*/
+div#wrapHead {
+	background-color: #ab141a;
+}
+header {
+	
+	padding: 10px;
+}
+header img {
+	float: left;
+	margin-right: 10px;
+	width: 75px;
+}
+
+
+header h1, header h2 {
+	color: #ffffff;
+	margin: 0;
+	font-family: 'Gelasio', serif;
+}
+
+header h1 {
+	font-size: 1.75rem;
+}
+
+header h2 {
+	font-size: 1rem;
+
+}
+
+/*nav rules*/
+div#wrapNav {
+	background-color: #fff9cc;
+}
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	font-size: 1.6rem;
+	color: rgba(171,20,26,1);
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:link {
+	color: rgba(171,20,26,1);
+}
+
+nav ul li a:visited {
+	color: rgba(171,20,26,1);
+}
+
+nav ul li a:hover {
+	background-color: rgba(130,206,219,1);
+	color: #fff;
+}
+
+nav ul li.active a {
+	background-color: rgba(58,172,198,1); 
+	color: #000;
+	}
+
+nav ul.hide {
+	display: none;
+}
+
+/*main rules here*/
+
+main h1, h2, h3 {
+	font-family: 'Gelasio', serif;
+} 
+
+.section1 {
+	margin: 10px auto;
+	position: relative;
+}
+
+#townhero {
+	width: 75%
+}
+
+section#weatsum {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: rgba(171,20,26,1);
+	background-color: #fff9cc;
+	width: 225px;
+	border: 1px;
+	padding: 3px 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 20px;
+	opacity: .8;
+	font-weight: bold;
+	
+}
+
+section p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.forecastTable {
+	display: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#artimage {
+	float: right;
+	width: 300px;
+}
+
+#prestmap {
+	
+	width: 200px;
+}
+
+/*footer rules*/
+div#wrapFoot {
+	background-color: #ab141a;
+}
+footer {
+	
+	padding: .5rem 2%;
+	text-align: center;
+	font-family: 'Gelasio', serif;
+}
+ footer h3 {
+	 color: #fff
+	 
+ }
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
