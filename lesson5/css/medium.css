@@ -58,6 +58,11 @@
 #btwn {
 	display: block;
 }
-		
+	
+#prestmap {
+	display: block;
+	float: right;
+	width: 200px;
+}
 		
 } /*end medium */

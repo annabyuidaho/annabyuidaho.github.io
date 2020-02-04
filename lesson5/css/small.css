@@ -142,10 +142,7 @@ section p {
 	width: 300px;
 }
 
-#prestmap {
-	float: right;
-	width: 200px;
-}
+
 
 
 
@@ -164,7 +161,9 @@ footer {
 	 
  }
 
-
+#prestmap {
+	display: none;
+}
 
 
 
