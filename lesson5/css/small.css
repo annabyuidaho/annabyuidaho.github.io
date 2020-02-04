@@ -133,7 +133,9 @@ section p {
 	
 }
 
-
+#btwn {
+	display: none;
+}
 
 #artimage {
 	float: right;
