@@ -37,12 +37,24 @@
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
 
-.forecastTable {
-	display: block;
+.forecasthead {
+	display: grid;
+	font-family: 'Gelasio', serif;
 }
 
+
+.forecastTable, .forecastimg {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.forecastimg {
+	width: 100px;
+}
 		
-		
+	
 		
 		
 } /*end medium */

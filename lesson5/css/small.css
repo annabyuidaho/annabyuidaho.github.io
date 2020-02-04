@@ -123,10 +123,17 @@ section p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.forecastTable {
+.forecasthead {
 	display: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gelasio', serif;
 }
+
+.forecastTable, .forecastimg {
+	display: none;
+	
+}
+
+
 
 #artimage {
 	float: right;
