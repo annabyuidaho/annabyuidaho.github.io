@@ -1,7 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
 
 @media only screen and (min-width: 64rem) {	
-	header, nav, main, footer {
+	header, nav, main, footer, #message {
 		max-width: 1024px;
 		margin: 0 auto;
 	}

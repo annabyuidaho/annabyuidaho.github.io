@@ -38,6 +38,8 @@ header h2 {
 div#wrapNav {
 	background-color: #fff9cc;
 }
+
+
 nav button {
 	margin: .2rem 2%;
 	background-color: transparent;
@@ -89,6 +91,21 @@ nav ul.hide {
 }
 
 /*main rules here*/
+
+#message {
+	background-color: #c4f0ff;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+div.showme {
+	display: block;
+}
+
+div.hideme {
+	display: none;
+}
 
 main h1, h2, h3 {
 	font-family: 'Gelasio', serif;
