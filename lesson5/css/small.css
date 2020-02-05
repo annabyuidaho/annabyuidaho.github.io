@@ -127,7 +127,6 @@ section#weatsum {
 	color: rgba(171,20,26,1);
 	background-color: #fff9cc;
 	width: 225px;
-	height: 170px;
 	border: 1px;
 	padding: 3px 10px;
 	border-radius: 25px;
@@ -137,11 +136,6 @@ section#weatsum {
 	
 }
 
-section#weatsum p {
-	margin: 0;
-	padding: 3px;
-	font-family: 'Open Sans', sans-serif;
-}
 
 section p {
 	font-family: 'Open Sans', sans-serif;
