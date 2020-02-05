@@ -163,8 +163,10 @@ section p {
 
 
 
-
 /*footer rules*/
+
+
+
 div#wrapFoot {
 	background-color: #ab141a;
 }
@@ -181,7 +183,7 @@ footer {
 
 
 
-#prestmap {
+ #prestmap {
 	display: none;
 }
 

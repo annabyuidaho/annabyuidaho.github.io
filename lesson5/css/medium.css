@@ -37,7 +37,7 @@
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
 
-
+/*5 day forecast*/
 
 .forecasthead {
 	display: grid;
@@ -54,7 +54,6 @@
 .forecastTable, .forecastimg {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -69,13 +68,18 @@ section.forecastTable div h4 {
 	padding: 1rem 0;
 }
 
-		
+/*end of table*/
+
+
 #btwn {
 	display: block;
 }
 	
+
+
+
 #prestmap {
-	display: block;
+	display: grid;
 	float: right;
 	width: 200px;
 }
