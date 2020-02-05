@@ -156,8 +156,10 @@ section p {
 }
 
 #artimage {
-	float: right;
-	width: 300px;
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 hr {
