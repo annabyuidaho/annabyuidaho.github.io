@@ -81,7 +81,7 @@ hr#btwn {
 	display: none;
 }
 	
-section.contact {
+div.contactinfo {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
