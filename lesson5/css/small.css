@@ -127,6 +127,7 @@ section#weatsum {
 	color: rgba(171,20,26,1);
 	background-color: #fff9cc;
 	width: 225px;
+	height: 168px;
 	border: 1px;
 	padding: 3px 10px;
 	border-radius: 25px;
@@ -177,6 +178,8 @@ footer {
 	 color: #fff
 	 
  }
+
+
 
 #prestmap {
 	display: none;

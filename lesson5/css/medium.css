@@ -37,23 +37,38 @@
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
 
+
+
 .forecasthead {
 	display: grid;
 	font-family: 'Gelasio', serif;
 }
 
+.forecastimg {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .forecastTable, .forecastimg {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 20px;
+
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-.forecastimg {
-	width: 100px;
+section.forecastTable div {
+	text-align: center;
+	border: 1px solid #aaa;
 }
+
+section.forecastTable div h4 {
+	background-color: #eee;
+	margin: 0;
+	padding: 1rem 0;
+}
+
 		
 #btwn {
 	display: block;
