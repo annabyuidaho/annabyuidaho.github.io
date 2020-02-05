@@ -59,20 +59,26 @@
 
 section.forecastTable div {
 	text-align: center;
-	border: 1px solid #aaa;
+	border: 1px solid rgba(58,172,198,1)
 }
 
 section.forecastTable div h4 {
-	background-color: #eee;
+	background-color: #fff9cc;
+	color: rgba(171,20,26,1);
+	opacity: .8;
 	margin: 0;
 	padding: 1rem 0;
+}
+
+section.forecastTable p {
+	color: rgba(171,20,26,1);
 }
 
 /*end of table*/
 
 
-#btwn {
-	display: block;
+hr#btwn {
+	display: none;
 }
 	
 

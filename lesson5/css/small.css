@@ -160,8 +160,14 @@ section p {
 	width: 300px;
 }
 
+hr {
+	border: .5px solid #3aaccb;
+}
 
-
+hr#btwn {
+	display: grid;
+}
+	
 
 /*footer rules*/
 
