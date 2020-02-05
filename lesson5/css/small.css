@@ -163,6 +163,10 @@ section p {
 }
 
 #artimage {
+	display: none;
+}
+
+#artimageAF {
 	display: block;
 	width: 100%;
 	margin-left: auto;

@@ -84,9 +84,14 @@ hr#btwn {
 }
 
 #artimage {
+	display: block;
 	float: right;
 	width: 330px;
 	padding: 3px 3px;
+}
+
+#artimageAF {
+	display: none;
 }
 
 div.contactinfo {
