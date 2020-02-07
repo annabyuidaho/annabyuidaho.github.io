@@ -10,8 +10,15 @@
 		width: 100%
 	}
 	
-	
+main h1, h2, h3 {padding: 0;}
 
+.forecastTable {padding: 0;}
+
+#artimage, #artimageAF {padding: 0;}
+
+section p, div.contactinfo p {padding: 0;}
+	
+#prestmap {padding: 0;}
 			
 	
 } /*end large */
