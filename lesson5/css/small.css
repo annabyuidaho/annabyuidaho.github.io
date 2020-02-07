@@ -27,11 +27,12 @@ header h1, header h2 {
 
 header h1 {
 	font-size: 1.75rem;
+	
 }
 
 header h2 {
 	font-size: 1rem;
-
+	
 }
 
 /*nav rules*/
@@ -109,6 +110,7 @@ div.hideme {
 
 main h1, h2, h3 {
 	font-family: 'Gelasio', serif;
+	padding: 0 10px;
 } 
 
 .section1 {
@@ -139,6 +141,7 @@ section#weatsum {
 
 section p {
 	font-family: 'Open Sans', sans-serif;
+	padding: 0 10px;
 }
 
 
@@ -149,6 +152,7 @@ section p {
 
 .forecastTable, .forecastimg {
 	display: none;
+
 	
 }
 
@@ -165,6 +169,7 @@ section p {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 10px;
 }
 
 hr {
@@ -205,6 +210,7 @@ footer {
 
 div.contactinfo p {
 	font-family: 'Open Sans', sans-serif;
+	padding: 0 10px;
 }
 
 .contactp {
