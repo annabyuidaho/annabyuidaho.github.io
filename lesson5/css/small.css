@@ -95,7 +95,7 @@ nav ul.hide {
 
 #message {
 	background-color: #c4f0ff;
-	padding: 5px;
+	padding: 5px 15px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
@@ -110,7 +110,7 @@ div.hideme {
 
 main h1, h2, h3 {
 	font-family: 'Gelasio', serif;
-	padding: 0 10px;
+	padding: 0 15px;
 } 
 
 .section1 {
@@ -128,7 +128,7 @@ section#weatsum {
 	left: 25px;
 	color: rgba(171,20,26,1);
 	background-color: #fff9cc;
-	width: 230px;
+	width: 250px;
 	border: 1px;
 	padding: 3px 10px;
 	border-radius: 25px;
@@ -141,7 +141,7 @@ section#weatsum {
 
 section p {
 	font-family: 'Open Sans', sans-serif;
-	padding: 0 10px;
+	padding: 0 15px;
 }
 
 
@@ -169,7 +169,7 @@ section p {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 10px;
+	padding: 0 15px;
 }
 
 hr {
@@ -210,7 +210,7 @@ footer {
 
 div.contactinfo p {
 	font-family: 'Open Sans', sans-serif;
-	padding: 0 10px;
+	padding: 0 15px;
 }
 
 .contactp {

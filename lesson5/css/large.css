@@ -9,6 +9,8 @@
 	#townhero {
 		width: 100%
 	}
+
+#message {padding: 5px;}
 	
 main h1, h2, h3 {padding: 0;}
 

@@ -55,7 +55,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	font-family: 'Open Sans', sans-serif;
-	padding: 0 10px;
+	padding: 0 15px;
 }
 
 section.forecastTable div {
@@ -89,7 +89,7 @@ hr#btwn {
 	display: block;
 	float: right;
 	width: 330px;
-	padding: 3px 10px 3px 3px;
+	padding: 3px 15px 3px 3px;
 }
 
 #artimageAF {
@@ -107,7 +107,7 @@ div.contactinfo {
 	float: right;
 	width: 300px;
 	height: 150px;
-	padding: 0 10px 0 0;
+	padding: 0 15px 0 0;
 }
 		
 } /*end medium */
