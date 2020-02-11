@@ -1,0 +1,30 @@
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 64rem) {	
+	header, nav, main, footer, #message {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	
+	.forecastTable {padding: 0;}
+
+	/*#townhero {
+		width: 100%;
+	} */
+
+
+/*
+#message {padding: 5px;}
+	
+main h1, h2, h3 {padding: 0;}
+
+
+
+#artimage, #artimageAF {padding: 0;}
+
+section p, div.contactinfo p {padding: 0;}
+	
+#prestmap {padding: 0;}
+			*/
+	
+} /*end large */

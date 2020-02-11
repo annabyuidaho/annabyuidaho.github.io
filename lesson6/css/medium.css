@@ -1,0 +1,114 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    /*moved from medium because it went to a a second line*/
+	header img {
+		width: 100px;
+	}
+	
+	header h1 {
+		padding: 10px;
+		font-size: 2.5rem;
+	}
+	
+	header h2 {
+		font-size: 1.5rem;
+		text-align: left;
+	}
+		
+
+	
+	nav button {display: none;}
+		
+		nav ul.hide {
+			display: block;
+		}
+
+		nav ul li {
+			float: left;
+		}
+		
+		nav ul li a {
+			border: none;
+			border-right: 1px solid rgba(0,0,0,0.3);
+			padding: .6rem 1rem;
+		}
+		
+		nav ul { display: flex; }
+		nav ul li { flex: 1 1 100%; }
+
+/*5 day forecast*/
+
+.forecasthead {
+	display: grid;
+	font-family: 'Gelasio', serif;
+}
+
+.forecastimg {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.forecastTable, .forecastimg {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 15px;
+}
+
+section.forecastTable div {
+	text-align: center;
+	border: 1px solid rgba(58,172,198,1)
+}
+
+section.forecastTable div h4 {
+	background-color: #fff9cc;
+	color: rgba(171,20,26,1);
+	opacity: .8;
+	margin: 0;
+	padding: 1rem 0;
+}
+
+section.forecastTable p {
+	color: rgba(171,20,26,1);
+	
+}
+
+/*end of table*/
+
+main figure.herotown {
+	margin: 0;
+}
+
+hr#btwn {
+	display: none;
+}
+
+#artimage {
+	display: block;
+	float: right;
+	width: 330px;
+	padding: 3px 15px 3px 3px;
+}
+
+#artimageAF {
+	display: none;
+}
+
+div.contactinfo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#prestmap {
+	display: grid;
+	float: right;
+	width: 300px;
+	height: 150px;
+	padding: 0 15px 0 0;
+}
+		
+} /*end medium */
