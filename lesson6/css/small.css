@@ -134,7 +134,7 @@ main h1, h2, h3 {
 	width: 100%;
 } */
 
-section#weatsum {
+section.weatsum {
 	position: absolute;
 	top: 25px;
 	left: 25px;
@@ -142,13 +142,18 @@ section#weatsum {
 	background-color: #fff9cc;
 	width: 270px;
 	border: 1px;
-	padding: 3px 10px;
+	padding: 0 0 15px 10px;
 	border-radius: 25px;
 	box-shadow: 0 0 20px;
 	opacity: .8;
 	font-weight: bold;
-	
 }
+
+section.weatsum p {
+	padding: 0 0 0 15px;
+	margin: .25rem;
+}
+
 
 
 section p {

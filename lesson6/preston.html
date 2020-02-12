@@ -58,11 +58,13 @@
 		images/lessonsix1100.jpg 1100w">
 		</figure>
 		
-		<section id="weatsum">
+		<section class="weatsum">
 		<h2>Weather Summary</h2>
-			<p>High: 21</p>
-			<p>Low: 4</p>
-			<p>Wind: 3 mph</p>
+			<p>Currently: Rainy</p>
+			<p>High: <span id="temp">54</span>&deg;F</p>
+			<p id="chill">message</p>
+			<p>Humidity: 95%</p>
+			<p>Wind Speed: <span id="speed">12</span> mph</p>
 		</section>
 		</div>
 	
@@ -145,7 +147,8 @@
 <div id="wrapFoot">	
 	<footer><h3>&copy; 2020 Anna Beckstead &bull;  
      <span id="currentdate"></span>
-    <script src="js/currentdate.js"></script></h3></footer>
+	<script src="js/currentdate.js"></script></h3></footer>
+	<script src="js/windchill.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/pancake.js"></script>
 </div>
