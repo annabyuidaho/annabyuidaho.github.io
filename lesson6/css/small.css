@@ -93,11 +93,11 @@ nav ul.hide {
 
 /*main rules here*/
 
-main figure.herotown {
+main picture.herotown {
 	margin: 0;
 }
 
-main figure.herotown img {
+main picture.herotown img {
 	width: 100%;
 	margin: 0;
 	padding: 0;
