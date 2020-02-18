@@ -14,13 +14,13 @@ const imgOptions = {
     rootMargin: "0px 0px 300px 0px"
 };
 
-/*
+
 const loadImages = (image) => {
 	image.setAttribute("src", image.getAttribute("data-src"));
 	image.onload = () => { image.removeAttribute("data-src");
 	};
 };
-*/
+
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
