@@ -1,20 +1,24 @@
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
 /*
 picture img[data-src] {
 	filter: blur(0.2em);
 }
 */
-
 picture img {
 	filter: blur(0em);
 	transition: filter 0.5s;
 }
 
-
 picture img {
-	display: block;
 	border: 5px solid red;
 	margin: 5px;
 	min-width: 300px;
-	min-height: 400px;
+	
 }
+
 
