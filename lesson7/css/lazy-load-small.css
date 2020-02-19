@@ -12,13 +12,10 @@ picture img[data-src] {
 picture img {
 	filter: blur(0em);
 	transition: filter 0.5s;
-}
-
-picture img {
 	border: 5px solid red;
 	margin: 5px;
 	min-width: 300px;
-	
 }
+
 
 
