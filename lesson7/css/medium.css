@@ -104,7 +104,10 @@ div.gallgrid {
 	grid-gap: 20px;
 	padding: 10px;
 }
-
+.desc {
+	padding: 10px;
+	
+}
 
 /*end of gallery rules*/
 
