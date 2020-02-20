@@ -127,16 +127,17 @@ div.gallgrid {
 .gall {
 	padding: 10px;
 	margin: 10px 0;
-	background-color: #eee;
+	background-color: #fff9cc;
 }
 
 .desc {
 	font-family: 'Open Sans', sans-serif;
+	color: #ab141a;
 	margin: 0;
 	padding: 10px 10px;
 	border: none;
 	text-align: center;
-	background-color: #eee;
+	background-color: #fff9cc;
 	
 }
 
@@ -152,10 +153,6 @@ picture img {
 	margin: 5px;
 	
 }
-
-
-
-
 
 /*end of gallery css*/
 
