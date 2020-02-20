@@ -29,19 +29,7 @@ main h1, h2, h3 {padding: 0;}
 	padding: 0;
 	}
 
-/*	working on hover
-	
-	a:hover {
-	background-color: rgba(130,206,219,1);
-	color: #fff;
-	
-	.gallgrid img:hover {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	box-shadow: 0px 0px 10px 0px #ab141a;
-	}	
-*/
+
 .gall:hover {
 	padding: 10px;
 	margin: 10px 0;
