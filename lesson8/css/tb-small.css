@@ -23,14 +23,14 @@ table, th, td {
 }
 
 tr:nth-child(even) td {
-  background-color: #e7ffed;
-}
-
-tr:nth-child(odd) td {
   background-color: #e7f0ed;
 }
 
-tr:nth-child(2) td.cats {
+tr:nth-child(odd) td {
+  background-color: #e7ffed;
+}
+
+tr:nth-child(1) td.cats {
 	background-color: #628ca6;
 	color: #fff;
 	text-align: center;
@@ -38,33 +38,27 @@ tr:nth-child(2) td.cats {
 	font-size: 1rem;
 }
 
-tr:nth-child(6) td.special {
+tr:nth-child(5) td.special {
 	background-color: #628ca6;
 	color: #fff;
 	text-align: center;
 }
 
-tr:nth-child(7) td.bf {
+tr:nth-child(6) td.bf {
 	font-style: italic;
 }
 
-tr:nth-child(9) td.credits {
+tfoot td.credits {
 	background-color: #7fb9c2;
 	font-size: .75rem;
 	
 }
 
-th.tabtitle {
+thead th.tabtitle {
 	background-color: #7fb9c2;
 	color: #000;
 	font-size: 1.75rem;
 }
 
-tr:nth-child(even) td {
-  background-color: #e7ffed;
-}
 
-tr:nth-child(odd) td {
-  background-color: #e7f0ed;
-}
 
