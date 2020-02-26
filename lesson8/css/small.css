@@ -322,7 +322,9 @@ form label.top input, form label.top select {
 	background-color: rgba(0,0,0,0.1);
 }
 
-
+.danger {
+	display: block;
+}
 
 form label.sbs {
 	display: block;
