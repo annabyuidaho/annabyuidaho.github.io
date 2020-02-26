@@ -324,6 +324,7 @@ form label.top input, form label.top select {
 
 .danger {
 	display: block;
+	padding: .75rem 0;
 }
 
 .slider {
@@ -358,13 +359,7 @@ form label.top input:required:valid {
 	border-left: green solid 6px;
 }
 
-.slider {
-	-webkit-appearance: none;
-	display: flex;
-	align-items: center;
-	font-size: .8rem;
-		color: #ab141a;
-	}
+
 
 
 #ratingvalue {
