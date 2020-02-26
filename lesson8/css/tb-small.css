@@ -28,14 +28,6 @@ tr:nth-child(odd) td {
   background-color: #e7ffed;
 }
 
-tbody th {
-	background-color: #628ca6;
-	color: #fff;
-	text-align: center;
-	font-weight: bold;
-	font-size: 1rem;
-}
-
 tr:nth-child(5) td:nth-child(3) {
 	background-color: #628ca6;
 	color: #fff;
