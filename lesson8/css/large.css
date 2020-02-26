@@ -21,7 +21,7 @@
 	
 main h1, h2, h3 {padding: 0;}
 
-/*gallery page rules*/
+/*---------------gallery page rules-----------*/
 	div.gallgrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -38,11 +38,11 @@ main h1, h2, h3 {padding: 0;}
 }
 	
 	
-/*end of gallery rules*/
+/*--------------end of gallery rules-----------*/
 
 #artimage, #artimageAF {padding: 0;}
 
-section p, div.contactinfo p {padding: 0;}
+p, section p, div.contactinfo p {padding: 0;}
 	
 #prestmap {padding: 0;}
 			

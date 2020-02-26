@@ -4,7 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/*header rules*/
+/*----------------header rules-------------*/
 div#wrapHead {
 	background-color: #ab141a;
 }
@@ -35,7 +35,7 @@ header h2 {
 	
 }
 
-/*nav rules*/
+/*-----------------nav rules--------------*/
 div#wrapNav {
 	background-color: #fff9cc;
 }
@@ -91,7 +91,7 @@ nav ul.hide {
 	display: none;
 }
 
-/*main rules here*/
+/*----------------main rules here-----------*/
 
 main picture.herotown {
 	margin: 0;
@@ -109,7 +109,10 @@ main picture.herotown img {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
-/*gallery page css*/
+
+
+
+/*----------------Gallery page css------------*/
 
 div.gallgrid {
 	display: grid;
@@ -153,9 +156,10 @@ picture img {
 	margin: 5px;
 	
 }
+/*----------------end of gallery css----------*/
 
-/*end of gallery css*/
 
+/*------------General Rules for all pages------*/
 div.showme {
 	display: block;
 }
@@ -169,6 +173,13 @@ main h1, h2, h3 {
 	padding: 0 15px;
 } 
 
+p, section p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 15px;
+}
+
+
+/*--------------Preston hero image----------------*/
 .section1 {
 	margin: 10px auto;
 	position: relative;
@@ -177,7 +188,7 @@ main h1, h2, h3 {
 /* #townhero {
 	width: 100%;
 } */
-
+/*--------------Preston Weather Summary------------*/
 section.weatsum {
 	position: absolute;
 	top: 25px;
@@ -197,26 +208,23 @@ section.weatsum p {
 	padding: 0 0 0 15px;
 	margin: .25rem;
 }
+/*------------end of Weather Summary-----------*/
 
 
 
-section p {
-	font-family: 'Open Sans', sans-serif;
-	padding: 0 15px;
-}
-
-
+/*--------------Preston 5 day forecast-------------*/
 .forecasthead {
 	display: none;
 	font-family: 'Gelasio', serif;
 }
 
 .forecastTable, .forecastimg {
-	display: none;
-
-	
+	display: none;	
 }
+/*-----------------end of forecast--------------*/
 
+
+/*-----------------Preston Page----------------*/
 #btwn {
 	display: none;
 }
@@ -240,12 +248,11 @@ hr {
 hr#btwn {
 	display: grid;
 }
-	
-
-/*footer rules*/
+/*--------------end of Preston--------------*/	
 
 
 
+/*--------------------footer rules-----------*/
 div#wrapFoot {
 	background-color: #ab141a;
 }
@@ -277,6 +284,80 @@ div.contactinfo p {
 .contactp {
 	font-weight: bold;
 }
+
+/*------------Storm Center ----------------*/
+
+
+form fieldset {
+	margin: 2rem 0;
+	border: 1px solid #ab141a;
+	border-radius: 10px;
+	padding: .5rem 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form legend {
+	color: #ab141a;
+	margin: 0 1rem; 
+	padding: 0 .5rem;
+}
+
+form label.top, form div {
+	display: block;
+	padding-top: 1rem;
+	color: #9c2c13;
+	font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+	display: block;
+	padding: .75rem 0;
+	color: #555;
+	
+}
+
+form input.submitBtn {
+	border: none;
+	background-color: #9c2c13;
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+
+form label.top input:required {
+	border-left: #ab141a solid 6px;
+}
+
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+
+.slider {
+	display: flex;
+	align-items: center;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
 
 
 

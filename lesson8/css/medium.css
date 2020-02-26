@@ -37,7 +37,7 @@
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
 
-/*5 day forecast*/
+/*-----------------5 day forecast----------------*/
 
 .forecasthead {
 	display: grid;
@@ -76,7 +76,7 @@ section.forecastTable p {
 	
 }
 
-/*end of table*/
+/*------------------end of Forecast-------------*/
 
 main picture.herotown {
 	margin: 0;
@@ -97,7 +97,7 @@ hr#btwn {
 	display: none;
 }
 
-/*gallery page rules*/
+/*---------------gallery page rules----------*/
 div.gallgrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -109,7 +109,7 @@ div.gallgrid {
 	
 }
 
-/*end of gallery rules*/
+/*---------------end of gallery rules---------*/
 
 
 div.contactinfo {
