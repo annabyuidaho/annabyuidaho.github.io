@@ -326,6 +326,11 @@ form label.top input, form label.top select {
 	display: block;
 }
 
+.slider {
+	font-size: .8rem;
+	color: #ab141a;
+}
+
 form label.sbs {
 	display: block;
 	padding: .75rem 0;
@@ -354,8 +359,12 @@ form label.top input:required:valid {
 }
 
 .slider {
+	-webkit-appearance: none;
 	display: flex;
 	align-items: center;
+	font-size: .8rem;
+		color: #ab141a;
+	}
 }
 
 #ratingvalue {
