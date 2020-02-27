@@ -40,6 +40,13 @@ main h1, h2, h3 {padding: 0;}
 	
 /*--------------end of gallery rules-----------*/
 
+/*-----------------storm center rules----------*/
+form fieldset {
+	margin: 2rem 0px;
+}
+
+
+
 #artimage, #artimageAF {padding: 0;}
 
 p, section p, div.contactinfo p {padding: 0;}

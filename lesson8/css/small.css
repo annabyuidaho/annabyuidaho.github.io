@@ -289,7 +289,7 @@ div.contactinfo p {
 
 
 form fieldset {
-	margin: 2rem 0;
+	margin: 2rem 15px;
 	border: 1px solid #ab141a;
 	border-radius: 10px;
 	padding: .5rem 2%;
@@ -320,16 +320,23 @@ form label.top input, form label.top select {
 	width: 100%;
 	max-width: 20rem;
 	background-color: rgba(0,0,0,0.1);
+	margin: 5px 0 10px 0;
 }
 
-.danger {
+form label.danger {
 	display: block;
-	padding: .75rem 0;
-}
-
-.slider {
+	padding: 1rem 0;
 	font-size: .8rem;
 	color: #ab141a;
+}
+
+form label.stormslide {
+	font-size: .8rem;
+	color: #ab141a;
+	display: block;
+	padding: .75rem 0;
+	
+	
 }
 
 form label.sbs {
