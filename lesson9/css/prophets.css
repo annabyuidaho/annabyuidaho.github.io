@@ -54,6 +54,7 @@ div.cards img {
 div {
 	display: grid;	
 	grid-template-columns: 1fr 1fr;
+	margin: 15px;
 }
 
 } /*-------------end of medium---------- */
@@ -67,6 +68,7 @@ div {
 div {
 	display: grid;	
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
 }
 
 
