@@ -1,0 +1,73 @@
+/*-----------small rules here-----------*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*-apply a natural box layout model to all elements -*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background-color: #eee;
+}
+
+h1, h2 {
+	font-family: 'Bree Serif', serif;
+	color: #3844ad;
+}
+h1 {
+	text-align: center;
+}
+
+
+p, footer {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+div {
+	display: grid;	
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	grid-color: #eee;
+	padding: 15px;
+	box-shadow: 0px 0px 10px 0px #000;
+	}
+
+div.cards section {
+	padding: 15px;
+	text-align: center;
+	background-color: #c2c2d6;
+	border: .75px solid #3844ad;
+	 
+}	
+
+div.cards img {
+	box-shadow: 0px 0px 10px 0px #000; 
+	width: 70%;
+	
+}
+
+
+
+/*------------medium rules here--------*/
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+div {
+	display: grid;	
+	grid-template-columns: 1fr 1fr;
+}
+
+} /*-------------end of medium---------- */
+
+
+
+/*------------large rules here------------*/
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 64rem) {	
+div {
+	display: grid;	
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+} /*end of large rules*/

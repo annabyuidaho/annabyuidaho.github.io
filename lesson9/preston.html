@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Preston Town Page">
+<meta name="author" content="Anna Beckstead">
+<title>Preston</title>
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="viewport" content="width=device=width, initial-scale=1, maximum-scale=1">
+
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gelasio%7COpen+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapHead">
+	<header class="clearfix">
+	<img src="images/small-logo.png" alt="logo">
+	<h1>Thermometer Buzz</h1>
+		<h2>What does the mercury say today?</h2>
+	</header>
+</div>	
+
+<div id="wrapNav">
+	<nav class="clearfix">
+		<button onclick="toggleMenu()">&#9776;</button>
+		<ul id="primaryNav" class="hide">
+			<li><a href="#">Home</a></li>
+			<li class="active"><a href="preston.html">Preston</a></li>
+			<li><a href="#">Soda Springs</a></li>
+			<li><a href="#">Fish Haven</a></li>
+			<li><a href="stormcenter.html">Storm Center</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div id="message" class="clearfix"><p>Saturday = Preston Pancakes in the Park! 9:00 am Saturday at the city park pavilion</p></div>	
+
+
+	<main>
+	
+		<h1>Preston</h1>
+		<div class="section1">
+		<picture class="herotown">
+			<source media="(max-width: 500px)" srcset="images/lessonsix500.jpg">
+			<source media="(max-width: 800px)" srcset="images/lessonsix800.jpg">
+			<source media="(max-width: 1920px)" srcset="images/lessonsix1100.jpg">
+			<img alt="mountains" src="images/lessonsix.jpg">
+			</picture>
+		
+		<section class="weatsum">
+		<h2>Weather Summary</h2>
+			<p>Currently: Rainy</p>
+			<p>High: <span id="temp">49</span>&deg;F</p>
+			<p id="chill">message</p>
+			<p>Humidity: 95%</p>
+			<p>Wind Speed: <span id="speed">12</span> mph</p>
+		</section>
+		</div>
+	
+		
+		
+		<h2 class="forecasthead">5-Day Forecast</h2>
+		<section class="forecastTable">
+			<div><h4>Monday</h4>
+				<img class="forecastimg" alt="rain cloud icon" src="images/rain-cloud.png">
+				<br><p>High Temp</p>
+			</div>
+			
+			<div><h4>Tuesday</h4>
+				<img class="forecastimg" alt="snow cloud icon" src="images/snow-cloud.png">
+				<br><p>High Temp</p>
+			</div>
+
+			<div><h4>Wednesday</h4>
+				<img class="forecastimg" alt="sunrise icon" src="images/sunrise.png">
+				<br><p>High Temp</p>
+			</div>
+
+			<div><h4>Thursday</h4>
+				<img class="forecastimg" alt="wind icon" src="images/wind.png">
+				<br><p>High Temp</p>
+			</div>
+
+			<div><h4>Friday</h4>
+				<img class="forecastimg" alt="raindrop icon" src="images/raindrop.png">
+				<br><p>High Temp</p>
+			</div>
+
+			
+		</section>
+
+		<br>
+		<hr id="btwn">
+		
+	
+		<section class="art">
+			<h2>Article Title</h2>
+			<img id="artimage" alt="snowy walkway" src="images/snowy-place.jpg">
+			<p>Lorem ipsum dolor sit amet, mei cu cetero accusamus reprehendunt, tation vocent eruditi per et. Mei no erat aeque, eam legimus convenire molestiae ut. Enim possit vidisse eu est, bonorum recusabo torquatos ei per. Per ne denique suscipiantur, ea eros tota falli eos, ad suas ceteros appetere eos.
+
+			An commune pericula quo. Vix elit minimum an, ei case adhuc epicurei eum. Eruditi corpora quaestio te duo, vis tractatos sententiae et. Sed scaevola incorrupte argumentum cu. Sit ea utamur debitis molestiae, integre denique et cum. Exerci voluptatibus per et, quo mutat ullum ut, id viris salutandi per. Vel novum menandri omittantur ei, his atqui debet no.Lorem ipsum dolor sit amet, mei cu cetero accusamus reprehendunt, tation vocent eruditi per et. Mei no erat aeque, eam legimus convenire molestiae ut. Enim possit vidisse eu est, bonorum recusabo torquatos ei per. Per ne denique suscipiantur, ea eros tota falli eos, ad suas ceteros appetere eos.
+
+			An commune pericula quo. Vix elit minimum an, ei case adhuc epicurei eum. Eruditi corpora quaestio te duo, vis tractatos sententiae et. Sed scaevola incorrupte argumentum cu. Sit ea utamur debitis molestiae, integre denique et cum. Exerci voluptatibus per et, quo mutat ullum ut, id viris salutandi per. Vel novum menandri omittantur ei, his atqui debet no.</p>
+			<img id="artimageAF" alt="snowy walkway" src="images/snowy-place.jpg">
+		</section>
+		
+<br>
+<hr>
+<br>
+	<h2 class="contacthead">Contact Us</h2>
+		<div class="contactinfo">
+
+			<div>				
+			<p class="contactp">Address:</p>
+			<p>The Weather Center
+			<br>123 Main Street
+			<br>Franklin, MI 87654</p></div>
+			
+			<div><p class="contactp">Phone:</p>
+			<p>(801) 555-1234</p>
+			
+			<p class="contactp">Email:</p>
+			<p>contact@yoururl.com</p></div>
+
+			<div>
+				
+				<iframe id="prestmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94731.5714110228!2d-111.95019289995261!3d42.09972575938959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1580931299836!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+		
+		</div>		
+		
+		
+	</main>
+
+
+<div id="wrapFoot">	
+	<footer><h3>&copy; 2020 Anna Beckstead &bull;  
+     <span id="currentdate"></span>
+	<script src="js/currentdate.js"></script></h3></footer>
+	<script src="js/windchill.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/pancake.js"></script>
+</div>
+	</body>
+</html>

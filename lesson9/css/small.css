@@ -1,0 +1,389 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------------header rules-------------*/
+div#wrapHead {
+	background-color: #ab141a;
+}
+header {
+	
+	padding: 10px;
+}
+header img {
+	float: left;
+	margin-right: 10px;
+	width: 75px;
+}
+
+
+header h1, header h2 {
+	color: #ffffff;
+	margin: 0;
+	font-family: 'Gelasio', serif;
+}
+
+header h1 {
+	font-size: 1.75rem;
+	
+}
+
+header h2 {
+	font-size: 1rem;
+	
+}
+
+/*-----------------nav rules--------------*/
+div#wrapNav {
+	background-color: #fff9cc;
+}
+
+
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	font-size: 1.6rem;
+	color: rgba(171,20,26,1);
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:link {
+	color: rgba(171,20,26,1);
+}
+
+nav ul li a:visited {
+	color: rgba(171,20,26,1);
+}
+
+nav ul li a:hover {
+	background-color: rgba(130,206,219,1);
+	color: #fff;
+}
+
+nav ul li.active a {
+	background-color: rgba(58,172,198,1); 
+	color: #000;
+	}
+
+nav ul.hide {
+	display: none;
+}
+
+/*----------------main rules here-----------*/
+
+main picture.herotown {
+	margin: 0;
+}
+
+main picture.herotown img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#message {
+	background-color: #c4f0ff;
+	padding: 5px 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+
+
+/*----------------Gallery page css------------*/
+
+div.gallgrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 10px;
+}
+
+.gallgrid img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+/*	box-shadow: 0px 0px 10px 0px #ab141a;     */
+}
+
+.gall {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff9cc;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif;
+	color: #ab141a;
+	margin: 0;
+	padding: 10px 10px;
+	border: none;
+	text-align: center;
+	background-color: #fff9cc;
+	
+}
+
+
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	margin: 5px;
+	
+}
+/*----------------end of gallery css----------*/
+
+
+/*------------General Rules for all pages------*/
+div.showme {
+	display: block;
+}
+
+div.hideme {
+	display: none;
+}
+
+main h1, h2, h3 {
+	font-family: 'Gelasio', serif;
+	padding: 0 15px;
+} 
+
+p, section p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 15px;
+}
+
+
+/*--------------Preston hero image----------------*/
+.section1 {
+	margin: 10px auto;
+	position: relative;
+}
+
+/* #townhero {
+	width: 100%;
+} */
+/*--------------Preston Weather Summary------------*/
+section.weatsum {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: rgba(171,20,26,1);
+	background-color: #fff9cc;
+	width: 270px;
+	border: 1px;
+	padding: 0 0 15px 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 20px;
+	opacity: .8;
+	font-weight: bold;
+}
+
+section.weatsum p {
+	padding: 0 0 0 15px;
+	margin: .25rem;
+}
+/*------------end of Weather Summary-----------*/
+
+
+
+/*--------------Preston 5 day forecast-------------*/
+.forecasthead {
+	display: none;
+	font-family: 'Gelasio', serif;
+}
+
+.forecastTable, .forecastimg {
+	display: none;	
+}
+/*-----------------end of forecast--------------*/
+
+
+/*-----------------Preston Page----------------*/
+#btwn {
+	display: none;
+}
+
+#artimage {
+	display: none;
+}
+
+#artimageAF {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+hr {
+	border: .5px solid #3aaccb;
+}
+
+hr#btwn {
+	display: grid;
+}
+/*--------------end of Preston--------------*/	
+
+
+
+/*--------------------footer rules-----------*/
+div#wrapFoot {
+	background-color: #ab141a;
+}
+footer {
+	
+	padding: .5rem 2%;
+	text-align: center;
+	font-family: 'Gelasio', serif;
+}
+ footer h3 {
+	 color: #fff
+	 
+ }
+
+ div.contactinfo {
+	 display: grid;
+	 grid-template-columns: 1fr 1fr;
+ }
+
+ #prestmap {
+	display: none;
+}
+
+div.contactinfo p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 15px;
+}
+
+.contactp {
+	font-weight: bold;
+}
+
+/*------------Storm Center ----------------*/
+
+
+form fieldset {
+	margin: 2rem 15px;
+	border: 1px solid #ab141a;
+	border-radius: 10px;
+	padding: .5rem 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form legend {
+	color: #ab141a;
+	margin: 0 1rem; 
+	padding: 0 .5rem;
+}
+
+form label.top, form div {
+	display: block;
+	padding-top: 1rem;
+	color: #9c2c13;
+	font-size: .8rem;
+}
+
+form label.top input, form label.top select, textarea {
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0,0,0,0.1);
+	margin: 5px 0 10px 0;
+}
+
+form label.danger {
+	display: block;
+	padding: 1rem 0;
+	font-size: .8rem;
+	color: #ab141a;
+}
+
+form label.stormslide {
+	font-size: .8rem;
+	color: #ab141a;
+	display: block;
+	padding: .75rem 0;
+	
+	
+}
+
+form label.sbs {
+	display: block;
+	padding: .75rem 0;
+	color: #555;
+	
+}
+
+form input.submitBtn {
+	border: solid 1px #ab141a;
+	background-color: #fff9cc; 
+	color: #ab141a;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 10px 0px #ab141a;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+
+form label.top input:required {
+	border-left: #ab141a solid 6px;
+}
+
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+
+textarea {
+	resize: none;
+}
+
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
