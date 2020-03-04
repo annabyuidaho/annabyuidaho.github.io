@@ -114,7 +114,7 @@ div.gallgrid {
 /*--------------home page-------------*/
 div.cities section {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	background-color: #fff9cc;
     grid-template-columns: 1fr 1fr;
 }
 
