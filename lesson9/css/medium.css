@@ -112,7 +112,7 @@ div.gallgrid {
 /*---------------end of gallery rules---------*/
 
 /*--------------home page-------------*/
-div.cities {
+div.cities section {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -130,6 +130,7 @@ div.cities {
 div.contactinfo {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	
 }
 
 
