@@ -47,6 +47,7 @@ form fieldset {
 /*---------home page ---------------------*/
 div.cities section {
 	display: block;
+	background-color: #75cbe8;
 }
 
 div.cities {
