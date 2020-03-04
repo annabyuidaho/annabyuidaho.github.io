@@ -122,6 +122,13 @@ div.cities {
 	grid-gap: 20px;
 	
 }
+
+.wire {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+
+}
 /*-----------------end of home page -------------*/
 
 div.contactinfo {

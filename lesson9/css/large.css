@@ -59,6 +59,11 @@ div.cities p, div.cities h2, div.cities h3 {
 	text-align: center;
 	
 }
+.wire {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 
 /*--------preston page ----------------*/

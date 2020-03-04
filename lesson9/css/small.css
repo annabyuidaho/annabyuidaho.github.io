@@ -404,6 +404,10 @@ div.cities p, div.cities h2, div.cities h3 {
 div.cities h2 {
 	padding: 10px 15px 10px 15px;
 }
+
+.wire img {
+	width: 100%;
+}
 /*-----------end of home page------------*/
 
 
