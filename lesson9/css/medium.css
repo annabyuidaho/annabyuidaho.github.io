@@ -117,7 +117,10 @@ div.cities section {
 	grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
-	
+
+div.cities section img {
+	grid-row: 1 / 7;
+}
 
 .wire {
 	display: grid;

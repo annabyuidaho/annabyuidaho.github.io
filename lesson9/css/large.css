@@ -45,6 +45,10 @@ form fieldset {
 	margin: 2rem 0px;
 }
 /*---------home page ---------------------*/
+div.cities section {
+	display: block;
+}
+
 div.cities {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
