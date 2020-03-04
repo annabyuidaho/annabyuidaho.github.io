@@ -31,7 +31,6 @@ img.setAttribute('src', 'images/' + hometown[i].photo);
 img.setAttribute('alt', hometown[i].name + '-' + hometown[i].motto);
 
 card.appendChild(h2);
-card.appendChild(p);
 card.appendChild(mot);
 card.appendChild(yr);
 card.appendChild(pop);
