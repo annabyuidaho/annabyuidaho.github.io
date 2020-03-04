@@ -378,6 +378,33 @@ textarea {
 	margin: 0 15px;
 }
 
+/*------------Home Page ------------------*/
+div.cities {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	padding: 15px;
+	background-color: #75cbe8;
+	margin: 15px;
+	grid-gap: 20px;
+	
+}
+
+div.cities img {
+	width: 100%;
+}
+
+div.cities p, div.cities h2, div.cities h3 {
+	background-color: #fff9cc;
+	margin: 0;
+	text-align: center;
+	
+}
+
+div.cities h2 {
+	padding: 10px 15px 10px 15px;
+}
+/*-----------end of home page------------*/
 
 
 

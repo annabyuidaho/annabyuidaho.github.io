@@ -44,9 +44,24 @@ main h1, h2, h3 {padding: 0;}
 form fieldset {
 	margin: 2rem 0px;
 }
+/*---------home page ---------------------*/
+div.cities {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 15px;
+	background-color: #75cbe8;
+	margin: 15px;
+	grid-gap: 20px;
+	height: 425px;
+}
+
+div.cities p, div.cities h2, div.cities h3 {
+	text-align: center;
+	
+}
 
 
-
+/*--------preston page ----------------*/
 #artimage, #artimageAF {padding: 0;}
 
 p, section p, div.contactinfo p {padding: 0;}

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="description" content="Preston Town Page">
 <meta name="author" content="Anna Beckstead">
-<title>Preston</title>
+<title>Home: Thermometer Buzz</title>
 <link rel="shortcut icon" href="favicon.ico">
 <meta name="viewport" content="width=device=width, initial-scale=1, maximum-scale=1">
 
@@ -28,8 +28,8 @@
 	<nav class="clearfix">
 		<button onclick="toggleMenu()">&#9776;</button>
 		<ul id="primaryNav" class="hide">
-			<li><a href="index.html">Home</a></li>
-			<li class="active"><a href="preston.html">Preston</a></li>
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="preston.html">Preston</a></li>
 			<li><a href="#">Soda Springs</a></li>
 			<li><a href="#">Fish Haven</a></li>
 			<li><a href="stormcenter.html">Storm Center</a></li>
@@ -43,63 +43,13 @@
 
 	<main>
 	
-		<h1>Preston</h1>
-		<div class="section1">
-		<picture class="herotown">
-			<source media="(max-width: 500px)" srcset="images/lessonsix500.jpg">
-			<source media="(max-width: 800px)" srcset="images/lessonsix800.jpg">
-			<source media="(max-width: 1920px)" srcset="images/lessonsix1100.jpg">
-			<img alt="mountains" src="images/lessonsix.jpg">
-			</picture>
+		<h1>Home</h1>
 		
-		<section class="weatsum">
-		<h2>Weather Summary</h2>
-			<p>Currently: Rainy</p>
-			<p>High: <span id="temp">49</span>&deg;F</p>
-			<p id="chill">message</p>
-			<p>Humidity: 95%</p>
-			<p>Wind Speed: <span id="speed">12</span> mph</p>
-		</section>
-		</div>
-	
-		
-		
-		<h2 class="forecasthead">5-Day Forecast</h2>
-		<section class="forecastTable">
-			<div><h4>Monday</h4>
-				<img class="forecastimg" alt="rain cloud icon" src="images/rain-cloud.png">
-				<br><p>High Temp</p>
-			</div>
-			
-			<div><h4>Tuesday</h4>
-				<img class="forecastimg" alt="snow cloud icon" src="images/snow-cloud.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Wednesday</h4>
-				<img class="forecastimg" alt="sunrise icon" src="images/sunrise.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Thursday</h4>
-				<img class="forecastimg" alt="wind icon" src="images/wind.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Friday</h4>
-				<img class="forecastimg" alt="raindrop icon" src="images/raindrop.png">
-				<br><p>High Temp</p>
-			</div>
-
-			
-		</section>
-
-		<br>
-		<hr id="btwn">
+		<div class="cities"></div>
 		
 	
 		<section class="art">
-			<h2>Article Title</h2>
+			<h2>Story</h2>
 			<img id="artimage" alt="snowy walkway" src="images/snowy-place.jpg">
 			<p>Lorem ipsum dolor sit amet, mei cu cetero accusamus reprehendunt, tation vocent eruditi per et. Mei no erat aeque, eam legimus convenire molestiae ut. Enim possit vidisse eu est, bonorum recusabo torquatos ei per. Per ne denique suscipiantur, ea eros tota falli eos, ad suas ceteros appetere eos.
 
@@ -108,6 +58,17 @@
 			An commune pericula quo. Vix elit minimum an, ei case adhuc epicurei eum. Eruditi corpora quaestio te duo, vis tractatos sententiae et. Sed scaevola incorrupte argumentum cu. Sit ea utamur debitis molestiae, integre denique et cum. Exerci voluptatibus per et, quo mutat ullum ut, id viris salutandi per. Vel novum menandri omittantur ei, his atqui debet no.</p>
 			<img id="artimageAF" alt="snowy walkway" src="images/snowy-place.jpg">
 		</section>
+
+<br>
+<hr>
+<br>		
+	
+		<h2>Wireframes</h2>
+	<div class="wire">
+	<img src="images/wireframe1.png" alt="wireframe">
+	<img src="images/wireframe2.png" alt="wireframe">
+	<img src="images/wireframe3.png" alt="wireframe">
+	</div>
 		
 <br>
 <hr>
@@ -142,9 +103,10 @@
 	<footer><h3>&copy; 2020 Anna Beckstead &bull;  
      <span id="currentdate"></span>
 	<script src="js/currentdate.js"></script></h3></footer>
-	<script src="js/windchill.js"></script>
+	
 	<script src="js/scripts.js"></script>
 	<script src="js/pancake.js"></script>
+	<script src="js/home-cities.js"></script>
 </div>
 	</body>
 </html>

@@ -111,6 +111,18 @@ div.gallgrid {
 
 /*---------------end of gallery rules---------*/
 
+/*--------------home page-------------*/
+div.cities {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	padding: 15px;
+	background-color: #75cbe8;
+	margin: 15px;
+	grid-gap: 20px;
+	
+}
+/*-----------------end of home page -------------*/
 
 div.contactinfo {
 	display: grid;
