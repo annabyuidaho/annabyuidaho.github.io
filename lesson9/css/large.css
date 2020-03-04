@@ -52,7 +52,7 @@ div.cities {
 	background-color: #75cbe8;
 	margin: 15px;
 	grid-gap: 20px;
-	height: 425px;
+	grid-template-rows: 1fr;
 }
 
 div.cities p, div.cities h2, div.cities h3 {
