@@ -69,10 +69,7 @@ div.cities p, div.cities h2, div.cities h3 {
 div.cities p, h3 {
 	padding: 5px;
 }
-.wire {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 
 
