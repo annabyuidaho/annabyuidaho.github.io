@@ -5,6 +5,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*-apply a natural box layout model to all elements -*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+    background-color: #fff9cc;
+}
+
+div {
+    border: solid 2px #ab141a;
+    background-color: #fff;
+}
+
 h1, h3{
     font-family: 'Gelasio', serif;
     padding: 15px;
