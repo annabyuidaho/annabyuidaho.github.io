@@ -399,17 +399,16 @@ div.cities p, div.cities h2, div.cities h3 {
 	margin: 0;
 	padding: 5px;
 	text-align: center;
+	color: #ab141a;
 	
 }
 
 div.cities h2 {
 	padding: 10px 15px 10px 15px;
-	color: #000000;
-  text-shadow: 2px 2px 4px #ab141a;
+  text-shadow: 2px 2px 4px #75cbe8;
 }
 
 div.cities h3 {
-	color: #000000;
 	text-shadow: 2px 2px 4px #75cbe8;
 	font-style: italic;
 }
