@@ -5,12 +5,13 @@ fetch(requestURL)
     return response.json();
   })
   .then(function(jsonObject) {
-    console.table(jsonObject);	// temporary checking for valid response and data parsing
+   // console.table(jsonObject);	// temporary checking for valid response and data parsing
 	const towns = jsonObject['towns'];
 	
-	let hometown = [towns[1], towns[4], towns[5]];
+//	let hometown = [towns[1], towns[4], towns[5]];
 
-for (let i = 0; i < hometown.length; i++ ) {
+for (let i = 0; i < towns.length; i++ ) {
+    if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"){
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
 let p = document.createElement("p");
@@ -21,14 +22,14 @@ let rain = document.createElement("p");
 let img = document.createElement("img");
 
 
-h2.textContent = hometown[i].name; 
-mot.textContent = hometown[i].motto;
-yr.textContent = "Year Founded: " + hometown[i].yearFounded;
-pop.textContent = "Population: " + hometown[i].currentPopulation;
-rain.textContent = "Annual Rainfall: " + hometown[i].averageRainfall;
+h2.textContent = towns[i].name; 
+mot.textContent = towns[i].motto;
+yr.textContent = "Year Founded: " + towns[i].yearFounded;
+pop.textContent = "Population: " + towns[i].currentPopulation;
+rain.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
-img.setAttribute('src', 'images/' + hometown[i].photo);
-img.setAttribute('alt', hometown[i].name + '-' + hometown[i].motto);
+img.setAttribute('src', 'images/' + towns[i].photo);
+img.setAttribute('alt', towns[i].name + '-' + towns[i].motto);
 
 card.appendChild(h2);
 card.appendChild(mot);
@@ -37,10 +38,9 @@ card.appendChild(pop);
 card.appendChild(rain);
 card.appendChild(img);
 
+	
 
-  
 document.querySelector('div.cities').appendChild(card);
-
+	}
 }
   });
-
