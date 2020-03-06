@@ -11,7 +11,7 @@ fetch(requestURL)
 //	let hometown = [towns[1], towns[4], towns[5]];
 
 for (let i = 0; i < towns.length; i++ ) {
-    if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Springfield"){
+    if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Franklin" || towns[i].name == "Greenville" || towns[i].name == "Springfield" || towns[i].name == "Placerton"){
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
 let p = document.createElement("p");

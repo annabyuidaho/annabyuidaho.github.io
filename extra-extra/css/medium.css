@@ -135,11 +135,12 @@ div.cities :nth-child(2) :nth-child(6) {
 
 
 
-/*----------------the one below is after I added another city--------------
+/*---------------the one below is after I added another city--------------
 div.cities section {
 	display: grid;
 	background-color: #fff9cc;
 	grid-template-columns: 1fr 1fr;
+	
 
 }
 
@@ -147,13 +148,37 @@ div.cities section img {
 	grid-row: 1 / 6;
 }
 
-div.cities :nth-child(2) :nth-child(6) {
+div.cities :nth-child(1) :nth-child(6) {
 	grid-column: 2 / 3;
 }
 
-div.cities :nth-child(4) :nth-child(6) {
+div.cities :nth-child(2) :nth-child(1) {
 	grid-column: 2 / 3;
 }
+div.cities :nth-child(3) :nth-child(6) {
+	grid-column: 2 / 3;
+}
+
+div.cities :nth-child(4) :nth-child(1) {
+	grid-column: 2 / 3;
+}
+
+div.cities :nth-child(5) :nth-child(6) {
+	grid-column: 2 / 3;
+}
+
+
+div.cities :nth-child(6) :nth-child(1) {
+	grid-column: 2 / 3;
+}
+
+div.cities :nth-child(7) :nth-child(6) {
+	grid-column: 2 / 3;
+}
+
+
+
+
 -------------the one above is after I added another city ------------*/
 
 /*
@@ -179,7 +204,7 @@ div.cities :nth-child(3) :nth-child(6) {
 }
 */
 
----------------this one below is the one I'm trying----
+/*---------------this one below is the one I'm trying----*/
 div.cities {
 	margin: 15px;
 	padding: 5px;
@@ -197,7 +222,7 @@ display: flex;
 div.cities section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
--------------this one above is the one I'm trying 
+/*-------------this one above is the one I'm trying */
 
 
 /*-----------------end of home page -------------*/
