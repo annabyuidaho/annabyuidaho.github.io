@@ -382,6 +382,7 @@ textarea {
 div.cities {
 	background-color: #75cbe8;
 	margin: 15px;
+	padding: 5px 0 5px 0;
 }
 
 div.cities section {

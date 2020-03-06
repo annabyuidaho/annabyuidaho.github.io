@@ -208,8 +208,8 @@ div.cities :nth-child(3) :nth-child(6) {
 div.cities section {
 	display: flex;
 	flex-direction: row;
-	border: 2px solid red;
 	
+	margin: 0;
 
 	}
 	
@@ -219,8 +219,11 @@ div.cities section {
 
 div.cities {
 	
+		background-color: #75cbe8;
+		margin: 15px;
+	
 	padding: 5px;
-	border: 2px solid blue;
+	
 }
 
 div.cities section div {
