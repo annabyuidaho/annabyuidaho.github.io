@@ -1,0 +1,54 @@
+/*--------small----------*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*-apply a natural box layout model to all elements -*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: #fff9cc;
+}
+
+div {
+    border: solid 2px #ab141a;
+    background-color: #fff;
+}
+
+h1, h3{
+    font-family: 'Gelasio', serif;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+.wire img {
+    width: 100%;
+    padding: 15px;
+}
+
+/*------medium-----------*/
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+.wire {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+
+} /*end of medium*/
+
+/*--------large---------------*/
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 64rem) {	
+.wire {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1024px;
+		margin: 0 auto;
+}
+} /*end of large*/
