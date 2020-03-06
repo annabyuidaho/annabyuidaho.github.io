@@ -205,23 +205,38 @@ div.cities :nth-child(3) :nth-child(6) {
 */
 
 /*---------------this one below is the one I'm trying----*/
+div.cities section {
+	display: flex;
+	flex-direction: row;
+	border: 2px solid red;
+	
+
+	}
+	
+	div.cities section:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+
 div.cities {
-	margin: 15px;
+	
 	padding: 5px;
+	border: 2px solid blue;
+}
+
+div.cities section div {
+	background-color: #fff9cc;
+	width: 400px;
 }
 
 div.cities section img {
-	width: 100%;
-}
+	width: 400px;
 
-div.cities section {
-display: flex;
 
 }
 
-div.cities section:nth-child(odd) {
-	flex-direction: row-reverse;
-}
+
+
+
 /*-------------this one above is the one I'm trying */
 
 

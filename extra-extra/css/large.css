@@ -70,11 +70,13 @@ div.cities p, h3 {
 	padding: 5px;
 }
 
-div.cities img {
+div.cities section img {
 	width: 100%;
 }
 
-
+div.cities section div {
+	width: auto;
+}
 
 
 /*--------preston page ----------------*/
