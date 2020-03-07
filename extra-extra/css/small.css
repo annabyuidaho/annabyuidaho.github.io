@@ -403,11 +403,12 @@ div.cities p, div.cities h2, div.cities h3 {
 	padding: 5px;
 	text-align: center;
 	color: #ab141a;
+	
 }
 
 div.cities h2 {
 	padding: 10px 15px 10px 15px;
-	/* text-shadow: 2px 2px 4px #75cbe8; */
+	text-shadow: 2px 2px 4px #75cbe8;
 }
 
 div.cities h3 {

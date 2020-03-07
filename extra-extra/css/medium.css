@@ -228,15 +228,17 @@ div.cities {
 
 div.cities section div {
 	background-color: #fff9cc;
-	width: 400px;
+	width: 500px;
+
 }
 
 div.cities section img {
-	width: 400px;
-
-
+	width: 500px;
 }
 
+div.cities p, div.cities h2, div.cities h3 {
+	padding: 20px 0 0 0;
+}
 
 
 
