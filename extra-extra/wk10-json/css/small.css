@@ -59,6 +59,10 @@ main {
     min-height: 20rem;
 }
 
+div.fiveday #weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 /*----------- FOOTER --------------*/
 footer {
