@@ -23,23 +23,9 @@
 section#weatherforecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    
-    border: 1px solid #000;
+
 }
 
-section#weatherforecast div {
-    border: 1px solid red;
-}
-
-section#weatherforecast p {
-    text-align: center;
-}
-
-section#weatherforecast img {
-    align-items: center;
-    justify-items: center;
-}
 
 /*----------- FOOTER --------------*/
     

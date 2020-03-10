@@ -62,7 +62,6 @@ main {
 section.weatherforecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  
     border: 1px solid #000;
 }
 
@@ -77,7 +76,10 @@ border: 1px solid purple;
 
 section#weatherforecast img {
 border: 1px solid green;
-
+width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 section#weatherforecast div h4 {

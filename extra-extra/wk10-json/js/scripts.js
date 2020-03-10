@@ -99,8 +99,9 @@ let forecastDayNumber = todayDayNumber;
 			
 			let theDay = document.createElement("div");
 			theDay.appendChild(theDayName);
-			theDay.appendChild(theTemp);
 			theDay.appendChild(theIcon);
+			theDay.appendChild(theTemp);
+			
 			
 		document.getElementById("weatherforecast").appendChild(theDay);	
 			
