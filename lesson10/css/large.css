@@ -13,7 +13,9 @@
 	}
 	
 	
-
+	section.weatsum h2 {
+		padding: 0 0 0 15px;
+	   }
 
 
 #message {padding: 5px;}
