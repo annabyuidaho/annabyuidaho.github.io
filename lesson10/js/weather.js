@@ -84,6 +84,8 @@ let forecastDayNumber = todayDayNumber;
 				forecastDayNumber = 0;
 			}
 			
+			
+
 			let theDayName = document.createElement("h4");
 			theDayName.textContent = myweekday[forecastDayNumber];
 			console.log(">"+myweekday[forecastDayNumber]);

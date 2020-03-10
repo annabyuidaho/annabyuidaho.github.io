@@ -6,7 +6,7 @@
 		margin: 0 auto;
 	}
 	
-	section#weatherforecast {
+	n#weatherforecast {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		padding: 0;

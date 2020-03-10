@@ -231,7 +231,7 @@ section.weatsum img {
 }
 -----------------end of forecast--------------*/
 /* ------------new forecast ---------------*/
-section#weatherforecast {
+#weatherforecast {
     display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 10px;
@@ -239,17 +239,17 @@ section#weatherforecast {
     
 }
 
-section#weatherforecast div {
+#weatherforecast div {
 	border: 2px solid rgba(58,172,198,1)
 }
 
-section#weatherforecast p {
+#weatherforecast p {
 text-align: center;
 color: rgba(171,20,26,1);
 
 }
 
-section#weatherforecast img {
+#weatherforecast img {
 
 width: 100px;
 	display: block;
@@ -257,7 +257,7 @@ width: 100px;
 	margin-right: auto;
 }
 
-section#weatherforecast div h4 {
+#weatherforecast div h4 {
   
    background-color: #fff9cc;
 	text-align: center;
