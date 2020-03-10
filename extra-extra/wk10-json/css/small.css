@@ -59,9 +59,33 @@ main {
     min-height: 20rem;
 }
 
-div.fiveday #weatherforecast {
+section.weatherforecast {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    border: 1px solid #000;
+}
+
+section#weatherforecast div {
+border: 1px solid red;
+}
+
+section#weatherforecast p {
+text-align: center;
+border: 1px solid purple;
+}
+
+section#weatherforecast img {
+border: 1px solid green;
+
+}
+
+section#weatherforecast div h4 {
+   border: 1px solid blue;
+   background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
 }
 
 /*----------- FOOTER --------------*/
