@@ -232,12 +232,13 @@ section.weatsum img {
 section#weatherforecast {
     display: grid;
 	grid-template-columns: 1fr;
-	
+	grid-gap: 10px;
+	padding: 15px;
     
 }
 
 section#weatherforecast div {
-	border: 1px solid rgba(58,172,198,1)
+	border: 2px solid rgba(58,172,198,1)
 }
 
 section#weatherforecast p {
