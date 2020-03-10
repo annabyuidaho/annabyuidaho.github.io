@@ -37,7 +37,7 @@
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
 
-/*-----------------5 day forecast----------------*/
+/*-----------------5 day forecast-----OLD----------
 
 .forecasthead {
 	display: grid;
@@ -75,8 +75,13 @@ section.forecastTable p {
 	color: rgba(171,20,26,1);
 	
 }
+------------------end of Forecast-------------*/
 
-/*------------------end of Forecast-------------*/
+section#weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 main picture.herotown {
 	margin: 0;

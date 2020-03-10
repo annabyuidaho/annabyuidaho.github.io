@@ -208,11 +208,17 @@ section.weatsum p {
 	padding: 0 0 0 15px;
 	margin: .25rem;
 }
+
+section.weatsum img {
+	width: 25px;
+	
+}
+
 /*------------end of Weather Summary-----------*/
 
 
 
-/*--------------Preston 5 day forecast-------------*/
+/*--------------Preston 5 day forecast-----OLD--------
 .forecasthead {
 	display: none;
 	font-family: 'Gelasio', serif;
@@ -221,7 +227,45 @@ section.weatsum p {
 .forecastTable, .forecastimg {
 	display: none;	
 }
-/*-----------------end of forecast--------------*/
+-----------------end of forecast--------------*/
+/* ------------new forecast ---------------*/
+section#weatherforecast {
+    display: grid;
+	grid-template-columns: 1fr;
+	
+    
+}
+
+section#weatherforecast div {
+	border: 1px solid rgba(58,172,198,1)
+}
+
+section#weatherforecast p {
+text-align: center;
+
+}
+
+section#weatherforecast img {
+
+width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#weatherforecast div h4 {
+  
+   background-color: #fff9cc;
+    text-align: center;
+	color: rgba(171,20,26,1);
+	opacity: .8;
+	margin: 0;
+	padding: 1rem 0;
+	font-family: 'Gelasio', serif;
+	
+}
+
+
 
 
 /*-----------------Preston Page----------------*/

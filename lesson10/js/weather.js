@@ -24,7 +24,7 @@ fetch(apiURL)
 		};
 	    
     document.getElementById("weatherNow").innerHTML=weatherInfo.weather[0].main;
-    document.getElementById("place").innerHTML=weatherInfo.name;
+    
     document.getElementById("currentTemp").innerHTML=weatherInfo.main.temp;
     document.getElementById("windSpeed").innerHTML=weatherInfo.wind.speed;
     document.getElementById("muggy").innerHTML=weatherInfo.main.humidity;
@@ -35,7 +35,7 @@ fetch(apiURL)
 	const icon_path="//openweathermap.org/img/w/" + iconcode + ".png";
 	console.log(icon_path);
 		
-	document.getElementById("weather_icon").src = icon_path;
+
 	
  }); //end of "then" fat arrow function
  

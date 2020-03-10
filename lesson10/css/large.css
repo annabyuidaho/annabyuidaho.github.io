@@ -6,12 +6,11 @@
 		margin: 0 auto;
 	}
 	
-	.forecastTable {padding: 0;}
-
-	/*#townhero {
-		width: 100%;
-	} */
-
+	section#weatherforecast {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	
+	}
 	
 	
 

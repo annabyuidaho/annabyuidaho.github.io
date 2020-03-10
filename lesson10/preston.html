@@ -53,43 +53,30 @@
 			</picture>
 		
 		<section class="weatsum">
-		<h2>Weather Summary</h2>
-			<p>Currently: Rainy</p>
+		
+		<!--	<p>Currently: Rainy</p>
 			<p>High: <span id="temp">49</span>&deg;F</p>
 			<p id="chill">message</p>
 			<p>Humidity: 95%</p>
-			<p>Wind Speed: <span id="speed">12</span> mph</p>
+			<p>Wind Speed: <span id="speed">12</span> mph</p> -->
+			<h2>Weather Summary</h2>
+			
+		<p>Currently: <span id="weatherNow"></span></p>
+        <p>High: <span id="currentTemp"></span>&deg;</p>
+        <p>Wind Speed: <span id="windSpeed"> </span>mph</p>
+        <p>Humidity: <span id="muggy"></span>%</p>
+		<p id="chill">message</p>
+	
+		</section>
+		
+        
 		</section>
 		</div>
 	
 		
 		
-		<h2 class="forecasthead">5-Day Forecast</h2>
-		<section class="forecastTable">
-			<div><h4>Monday</h4>
-				<img class="forecastimg" alt="rain cloud icon" src="images/rain-cloud.png">
-				<br><p>High Temp</p>
-			</div>
-			
-			<div><h4>Tuesday</h4>
-				<img class="forecastimg" alt="snow cloud icon" src="images/snow-cloud.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Wednesday</h4>
-				<img class="forecastimg" alt="sunrise icon" src="images/sunrise.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Thursday</h4>
-				<img class="forecastimg" alt="wind icon" src="images/wind.png">
-				<br><p>High Temp</p>
-			</div>
-
-			<div><h4>Friday</h4>
-				<img class="forecastimg" alt="raindrop icon" src="images/raindrop.png">
-				<br><p>High Temp</p>
-			</div>
+		<h2><span id="townName">town</span> 5-Day Forecast</h2>
+        <section id="weatherforecast"></section>
 
 			
 		</section>
