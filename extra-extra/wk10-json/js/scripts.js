@@ -77,16 +77,16 @@ let forecastDayNumber = todayDayNumber;
 	for (i=0; i<mylist.length; i++) {
 		
 		let time = mylist[i].dt_txt;
-		if(time.includes("19:00:00")) {
-			
+		if(time.includes("18:00:00")) {
+			console.log("Found an entry with 18:00:00 in the time. It was report " +i+ " from the mylist of 40");
 			forecastDayNumber +=1;
 			if(forecastDayNumber ===7) {
 				forecastDayNumber = 0;
 			}
 			
 			let theDayName = document.createElement("span");
-			theDayName.textContent = weekday[forecastDayNumber];
-			console.log(">"+weekday[forecastDayNumber]);
+			theDayName.textContent = myweekday[forecastDayNumber];
+			console.log(">"+myweekday[forecastDayNumber]);
 			
 			let theTemp = document.createElement("p");
 			theTemp.textContent = weatherFore.list[i].main.temp + "\xB0";
