@@ -242,6 +242,7 @@ section#weatherforecast div {
 
 section#weatherforecast p {
 text-align: center;
+color: rgba(171,20,26,1);
 
 }
 
@@ -256,7 +257,8 @@ width: 100px;
 section#weatherforecast div h4 {
   
    background-color: #fff9cc;
-    text-align: center;
+	text-align: center;
+	font-weight: bold;
 	color: rgba(171,20,26,1);
 	opacity: .8;
 	margin: 0;
