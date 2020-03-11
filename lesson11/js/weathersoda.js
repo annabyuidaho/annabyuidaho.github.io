@@ -1,7 +1,7 @@
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5607916&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
 
-//const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83263,us&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
+//const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83276,us&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
 
 
 //Go fetch it and then wait for a response.
@@ -58,7 +58,7 @@ myweekday[6] = "Saturday";
 
 console.log(myweekday[3]);
 
-const apiURLforecast = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
+const apiURLforecast = "//api.openweathermap.org/data/2.5/forecast?id=5607916&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
 
 fetch(apiURLforecast)
 	.then((response) => response.json())
