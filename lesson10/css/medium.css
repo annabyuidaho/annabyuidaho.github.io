@@ -76,12 +76,53 @@ section.forecastTable p {
 	
 }
 ------------------end of Forecast-------------*/
+/* ------------------end of Forecast-------------*/
+.forecastinfo {
+	display: block;
+}
 
 #weatherforecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
+
+	grid-gap: 10px;
+	padding: 15px;
+    
 }
+
+#weatherforecast div {
+	border: 2px solid rgba(58,172,198,1)
+}
+
+#weatherforecast p {
+text-align: center;
+color: rgba(171,20,26,1);
+
+}
+
+#weatherforecast img {
+
+width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weatherforecast div h4 {
+  
+   background-color: #fff9cc;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(171,20,26,1);
+	opacity: .8;
+	margin: 0;
+	padding: 1rem 0;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/*------------------end of Forecast-------------*/
 
 main picture.herotown {
 	margin: 0;
