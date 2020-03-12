@@ -41,6 +41,13 @@ main h1, h2, h3 {padding: 0;}
 	
 /*--------------end of gallery rules-----------*/
 
+/*----------events------------*/
+section.fun h3 {
+	padding: 0px;
+}
+
+/*-----end of--events------------*/
+
 /*-----------------storm center rules----------*/
 form fieldset {
 	margin: 2rem 0px;
