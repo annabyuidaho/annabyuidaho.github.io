@@ -98,14 +98,16 @@ let forecastDayNumber = todayDayNumber;
 			let iconcode = weatherFore.list[i].weather[0].icon;
 			let iconPath = "//openweathermap.org/img/w/" +iconcode+".png";
 			
+			const desc = weatherFore.list[i].weather[0].description;
 			let theIcon = document.createElement("img");
 			theIcon.src=iconPath;
+			theIcon.setAttribute('src', iconPath);
+            theIcon.setAttribute('alt', desc);
 			
 			let theDay = document.createElement("div");
 			theDay.appendChild(theDayName);
 			theDay.appendChild(theIcon);
 			theDay.appendChild(theTemp);
-			
 			
 		document.getElementById("weatherforecast").appendChild(theDay);	
 			
