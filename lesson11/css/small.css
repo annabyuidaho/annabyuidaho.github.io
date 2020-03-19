@@ -247,6 +247,23 @@ section.weatsum img {
 	display: none;
 }
 
+.art a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.art a:hover {
+	color: #ab141a;
+	text-decoration: underline;
+}
+
+.art a:visited {
+	color: #3aaccb;
+}
+
+.credits {
+	font-style: italic;
+}
 
 
 #artimage {
