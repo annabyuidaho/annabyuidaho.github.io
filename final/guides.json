@@ -1,31 +1,31 @@
 {
- "guides":[
-	{
-	"name": "Bill",
-	"image": "images/bill.jpg",
-	"certification level": "Master Rafter",
-	"years experience": 15,
-	"email address": "bill@salmonriver.com",
-	"biography": "Bill is our most experienced guide. With 15 years of rafting expedition experience under his life vest is prepared to guide you on the adventure of your lifetime."
-	},
-	
-	{
-	"name": "Dave",
-	"image": "images/dave.jpg",
-	"certification level": "Master Rafter",
-	"years experience": 8,
-	"email address": "Dave@salmonriver.com",
-	"biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft!"
-	},
-	
-	{
-	"name": "Jane",
-	"image": "images/jane.jpg",
-	"certification level": "Master Rafter",
-	"years experience": 10,
-	"email address": "jane@salmonriver.com",
-	"biography": "Jane has been been an adventure guide with us for many years. She is a certified master rafter and enjoys taking other on her adventures. She grew up rafting and comes from a long line of rafters. It's definitely in her blood."
-	}
-	
-]
-}
+	"guides":[
+	   {
+	   "name": "Bill",
+	   "image": "images/bill.jpg",
+	   "certLevel": "Master Rafter",
+	   "yearsEx": 15,
+	   "emailAdd": "bill@salmonriver.com",
+	   "biography": "Bill is our most experienced guide. With 15 years of rafting expedition experience under his life vest is prepared to guide you on the adventure of your lifetime."
+	   },
+	   
+	   {
+	   "name": "Dave",
+	   "image": "images/dave.jpg",
+	   "certLevel": "Master Rafter",
+	   "yearsEx": 8,
+	   "emailAdd": "Dave@salmonriver.com",
+	   "biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft!"
+	   },
+	   
+	   {
+	   "name": "Jane",
+	   "image": "images/jane.jpg",
+	   "certLevel": "Master Rafter",
+	   "yearsEx": 10,
+	   "emailAdd": "jane@salmonriver.com",
+	   "biography": "Jane has been been an adventure guide with us for many years. She is a certified master rafter and enjoys taking other on her adventures. She grew up rafting and comes from a long line of rafters. It's definitely in her blood."
+	   }
+	   
+   ]
+   }
