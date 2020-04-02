@@ -4,9 +4,9 @@
 	   "name": "Bill",
 	   "image": "bill.jpg",
 	   "certLevel": "Master Rafter",
-	   "yearsEx": 15,
+	   "yearsEx": 12,
 	   "emailAdd": "bill@salmonriver.com",
-	   "biography": "Bill is our most experienced guide. With 15 years of rafting expedition experience under his life vest is prepared to guide you on the adventure of your lifetime."
+	   "biography": "Bill is our most experienced guide. With 15 years of rafting expedition experience under his life vest is prepared to guide you on the adventure of your lifetime. His twin brother, Dave, is also one of our guides!"
 	   },
 	   
 	   {
@@ -25,7 +25,7 @@
 		"certLevel": "Master Rafter",
 		"yearsEx": 8,
 		"emailAdd": "Dave@salmonriver.com",
-		"biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft!"
+		"biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft! His twin brother, Bill, is also one of our guides!"
 	   }
 	   
    ]
