@@ -111,9 +111,11 @@ div.ourGuides {
 	display: grid;
 	grid-template-columns: 1fr;
 	padding: 15px;
-	
 	grid-gap: 20px;
+	
 }
+
+div.ourGuides h2 {text-align: center;}
 
 div.ourGuides section {
 	background-color: #d3eaf8;
