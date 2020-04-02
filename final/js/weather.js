@@ -1,7 +1,5 @@
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
-
-//const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83263,us&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=83549,us&appid=53960ecb72b049ebd8e0d762f7ac23d1&units=imperial";
 
 
 //Go fetch it and then wait for a response.
