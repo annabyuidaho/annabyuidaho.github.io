@@ -38,6 +38,12 @@
 		nav ul li { flex: 1 1 100%; }
 
 
+		/*----------- Guides Page Rules -------------*/
+		div.ourGuides {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
 		
 	/*---------------------old ------------------*/
 	#artimage {

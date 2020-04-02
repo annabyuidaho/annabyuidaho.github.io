@@ -106,7 +106,23 @@ nav ul.hide {
 	padding: 0 15px;
 }
 
+/*--------Guides Page rules ------------------*/
+div.ourGuides {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 15px;
+	margin: 15px;
+	grid-gap: 20px;
+}
 
+div.ourGuides section {
+	background-color: #d3eaf8;
+	padding: 10px;
+}
+
+div.ourGuides section img {
+	width: 100%
+}
 
 
 

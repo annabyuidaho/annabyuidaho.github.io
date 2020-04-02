@@ -10,21 +10,22 @@
 	   },
 	   
 	   {
-	   "name": "Dave",
-	   "image": "dave.jpg",
-	   "certLevel": "Master Rafter",
-	   "yearsEx": 8,
-	   "emailAdd": "Dave@salmonriver.com",
-	   "biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft!"
-	   },
-	   
-	   {
-	   "name": "Jane",
+		"name": "Jane",
 	   "image": "jane.jpg",
 	   "certLevel": "Master Rafter",
 	   "yearsEx": 10,
 	   "emailAdd": "jane@salmonriver.com",
 	   "biography": "Jane has been been an adventure guide with us for many years. She is a certified master rafter and enjoys taking other on her adventures. She grew up rafting and comes from a long line of rafters. It's definitely in her blood."
+	   
+	   },
+	   
+	   {
+		"name": "Dave",
+		"image": "dave.jpg",
+		"certLevel": "Master Rafter",
+		"yearsEx": 8,
+		"emailAdd": "Dave@salmonriver.com",
+		"biography": "Dave has been with us a for long time and has much experience guiding. He rafted for many year before certify. It's like he was born on the raft!"
 	   }
 	   
    ]

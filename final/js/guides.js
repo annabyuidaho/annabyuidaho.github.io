@@ -21,18 +21,19 @@ let img = document.createElement("img");
 h2.textContent = "Meet " + guides[i].name;
 cert.textContent = "Certification Level: " + guides[i].certLevel;
 yrs.textContent = "Years Experience: " + guides[i].yearsEx;
-email.textContent = "Years Experience: " + guides[i].emailAdd;
-bio.textContent = "Years Experience: " + guides[i].biography;
+email.textContent = "Email Address: " + guides[i].emailAdd;
+bio.textContent = guides[i].biography;
 
 img.setAttribute('src', 'images/' + guides[i].image);
 img.setAttribute('alt', guides[i].name);
 
 card.appendChild(h2);
+card.appendChild(img);
 card.appendChild(cert);
 card.appendChild(yrs);
 card.appendChild(email);
 card.appendChild(bio);
-card.appendChild(img);
+
 
 document.querySelector('div.ourGuides').appendChild(card);
 	}
