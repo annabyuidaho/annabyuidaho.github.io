@@ -1,0 +1,257 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------------header rules-------------*/
+div#wrapHead {
+	background-color: #efb392;
+}
+header {
+	
+	padding: 10px;
+}
+header img {
+	float: left;
+	margin-right: 10px;
+	width: 75px;
+}
+
+
+header h1, header h2 {
+	color: #000000;
+	margin: 0;
+	
+}
+
+header h1 {
+	font-size: 1.75rem;
+	font-family: 'Lobster Two', cursive;
+	
+}
+
+header h2 {
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	
+	
+}
+
+/*-----------------nav rules--------------*/
+div#wrapNav {
+	background-color: #92ccef;
+}
+
+
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	font-size: 1.6rem;
+	color: rgba(0,0,0,0.4);
+}
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:link {
+	color: rgba(0,0,0,0.8);
+}
+
+nav ul li a:visited {
+	color: rgba(0,0,0,0.8);
+}
+
+nav ul li a:hover {
+	background-color: rgba(88,166,214,0.8);
+	color: #fff;
+}
+
+nav ul li.active a {
+	background-color: rgba(88,166,214,0.8); 
+	color: #000;
+	}
+
+nav ul.hide {
+	display: none;
+}
+
+/*----------------main rules here-----------*/
+
+#artimage {display: none;}
+
+#artimageAF {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+
+
+
+
+/*------------General Rules for all pages------*/
+div.showme {
+	display: block;
+}
+
+div.hideme {
+	display: none;
+}
+
+main h1 {
+	font-family: 'Lobster Two', cursive;
+	padding: 0 15px;
+	font-size: 2.5rem;
+} 
+
+main h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 15px;
+}
+
+
+p, section p {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 15px;
+}
+
+
+
+
+
+/*--------------------footer rules-----------*/
+div#wrapFoot {
+	background-color: #efb392;
+}
+footer {
+	
+	padding: .5rem 2%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+ footer h3 {
+	 color: #000000;
+	 
+ }
+
+ /*-------------------form---------------------------*/
+
+form fieldset {
+	margin: 2rem 15px;
+	border: 1px solid #ab141a;
+	border-radius: 10px;
+	padding: .5rem 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form legend {
+	color: #ab141a;
+	margin: 0 1rem; 
+	padding: 0 .5rem;
+}
+
+form label.top, form div {
+	display: block;
+	padding-top: 1rem;
+	color: #9c2c13;
+	font-size: .8rem;
+}
+
+form label.top input, form label.top select, textarea {
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0,0,0,0.1);
+	margin: 5px 0 10px 0;
+}
+
+form label.danger {
+	display: block;
+	padding: 1rem 0;
+	font-size: .8rem;
+	color: #ab141a;
+}
+
+form label.stormslide {
+	font-size: .8rem;
+	color: #ab141a;
+	display: block;
+	padding: .75rem 0;
+	
+	
+}
+
+form label.sbs {
+	display: block;
+	padding: .75rem 0;
+	color: #555;
+	
+}
+
+form input.submitBtn {
+	border: solid 1px #ab141a;
+	background-color: #fff9cc; 
+	color: #ab141a;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 10px 0px #ab141a;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+
+form label.top input:required {
+	border-left: #ab141a solid 6px;
+}
+
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+
+textarea {
+	resize: none;
+}
+
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
