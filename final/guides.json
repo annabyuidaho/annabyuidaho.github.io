@@ -2,7 +2,7 @@
 	"guides":[
 	   {
 	   "name": "Bill",
-	   "image": "images/bill.jpg",
+	   "image": "bill.jpg",
 	   "certLevel": "Master Rafter",
 	   "yearsEx": 15,
 	   "emailAdd": "bill@salmonriver.com",
@@ -11,7 +11,7 @@
 	   
 	   {
 	   "name": "Dave",
-	   "image": "images/dave.jpg",
+	   "image": "dave.jpg",
 	   "certLevel": "Master Rafter",
 	   "yearsEx": 8,
 	   "emailAdd": "Dave@salmonriver.com",
@@ -20,7 +20,7 @@
 	   
 	   {
 	   "name": "Jane",
-	   "image": "images/jane.jpg",
+	   "image": "jane.jpg",
 	   "certLevel": "Master Rafter",
 	   "yearsEx": 10,
 	   "emailAdd": "jane@salmonriver.com",
