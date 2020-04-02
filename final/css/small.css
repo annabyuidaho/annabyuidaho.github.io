@@ -120,12 +120,41 @@ div.ourGuides h2 {text-align: center;}
 div.ourGuides section {
 	background-color: #d3eaf8;
 	padding: 10px;
+	box-shadow: 5px 5px 10px 0px #f8e0d3;
 }
 
 div.ourGuides section img {
 	width: 100%
 }
 
+/*------------reservation table -----------*/
+thead>tr>th {
+text-align: center;
+font-size: 2rem;
+font-family: 'Lobster Two', cursive;
+text-shadow: 2px 2px #efb392;
+}
+
+table, th {
+	border-collapse: collapse;
+	box-shadow: 5px 5px 10px 0px #efb392;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border: 2px solid #000;
+	background-color: #bcdff5;
+	width: 400px;
+	text-align: center;
+	
+}
+ tbody {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: normal;
+ }
+
+tr.sub {
+	font-size: 1.25rem;
+}
 
 
 /*------------General Rules for all pages------*/

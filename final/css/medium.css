@@ -44,6 +44,10 @@
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 
+		/*-------reservation table------*/
+		table, th {
+			width: 600px;
+		}
 		
 	/*---------------------old ------------------*/
 	#artimage {
