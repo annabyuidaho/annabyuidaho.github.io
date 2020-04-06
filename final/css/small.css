@@ -96,9 +96,9 @@ nav ul.hide {
 
 /*----------------main rules here-----------*/
 
-#artimage {display: none;}
+#rapidraft {display: none;}
 
-#artimageAF {
+#rapidraftAF {
 	display: block;
 	width: 100%;
 	margin-left: auto;
@@ -291,6 +291,39 @@ div.contactbox {
 	font-size: 1rem;
 	font-weight: bold;
 }
+/*-------------Home Page rules --------------*/
+.homeHero {
+	width: 100%
+}
+
+section.weatsum {
+	
+	margin: auto;
+	width: 50%;
+	padding: 15px;
+	color: rgba(27,120,177,1);
+	background-color: #f8e0d3;
+	border: 1px solid #1b78b1;
+	padding: 0 0 15px 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px;
+	opacity: .8;
+	font-weight: bold;
+	
+}
+
+section.weatsum p {
+	
+	padding: 0 0 0 15px;
+	margin: .25rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section.weatsum img {
+	width: 25px;
+}
+
+
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

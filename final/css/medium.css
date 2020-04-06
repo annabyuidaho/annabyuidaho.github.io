@@ -49,18 +49,23 @@
 			width: 600px;
 		}
 		
-	/*---------------------old ------------------*/
-	#artimage {
+	/*----------home rules------------------*/
+	#rapidraft {
 	display: block;
 	float: right;
 	width: 330px;
 	padding: 3px 15px 3px 3px;
 }
 
-#artimageAF {
+#rapidraftAF {
 	display: none;
 }
-		
+	
+section.weatsum {
+	position: absolute;
+	top: 17rem;
+	right: 1rem;
+}	
 		
 		
 		

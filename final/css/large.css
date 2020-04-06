@@ -17,6 +17,23 @@ header h1 {
 		
 main h1, h2, h3 {padding: 0;}
 
+section.weatsum {
+	position: static;
+	width: 100%;
+	text-align: center;
+}
+
+section.weatsum h2 {
+	text-align: center;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+section.weatsum p {
+	display: inline;
+	
+}
+
 
 	
 } /*end large */
