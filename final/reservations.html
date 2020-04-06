@@ -84,7 +84,7 @@
 		<form method="get" action="thanks.html">
 		
 		<fieldset>
-			<legend>Personal Information
+			<legend>Tell Us About You!
 			</legend>
 			
 			<label class="top">Full Name*<input type="text" name="fullname"  pattern="(.*[A-Za-z]){5,}" required></label>
@@ -93,63 +93,30 @@
 			
 			<label class="top">Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
 			
-			<label class="top">Zip Code*<input type="number" name="zip" required></label>
-			
-			
+				
 			
 			
 		</fieldset>
 		
 		<fieldset>
-			<legend>Storm Information
+			<legend>Choose Your Adventure!
 			</legend>
-			<label class="top">Storm Date<input type="date" name="stormDate"></label>
-			<label class="top">Storm Type<input list="stormlist" name="stormType"></label>
-			<datalist id="stormlist">
-				<option value="Flash Flood">
-				<option value="Hail">
-				<option value="Hurricane">
-				<option value="Thunderstorm">
-				<option value="Tornado">
+			<label class="top">Start Date<input type="date" name="startDate"></label>
+			
+				
 			</datalist>
+						
 			
-		
-			<label class="stormslide">Storm Severity &nbsp;&nbsp;&nbsp;
-		<input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-				<span id="ratingvalue">5</span>
-		
-
-			<datalist id="tickmarks">
-			<option value="0">
-			<option value="1">
-			<option value="2">
-			<option value="3">
-			<option value="4">
-			<option value="5">
-			<option value="6">
-			<option value="7">
-			<option value="8">
-			<option value="9">
-			<option value="10">
-			</datalist>
-		</label>	
-			
-			
-			<label class="top">Storm Region
+			<label class="top">Skill Level
 			<select name="areas">
 				<option class="arrow" value="" selected disabled>Please Select &#9662;</option>
-				<option value="fish">Fish Haven</option>
-				<option value="preston">Preston</option>
-				<option value="soda">Soda Springs</option>	
+				<option value="beg">Beginner</option>
+				<option value="inter">Intermediate</option>
+				<option value="adv">Advanced</option>	
 			</select>
 			</label>
 			
 			
-			<div>Are you in danger?</div>
-			
-			<label class="danger"><input type="radio" name="danger" value="yes"> Yes</label>
-			<label class="danger"><input type="radio" name="danger" value="no"> No</label>
-			<label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
 		</fieldset>
 		
 		<fieldset>
@@ -160,7 +127,7 @@
 		
 		
 	
-	<input type="submit" value="Report Storm" class="submitBtn">
+	<input type="submit" value="Book Now!" class="submitBtn">
 		
 	</form>
 	

@@ -49,7 +49,7 @@ nav button {
 	background-color: transparent;
 	border: none;
 	font-size: 1.6rem;
-	color: rgba(0,0,0,0.4);
+	color: rgba(27,120,177);
 }
 
 nav {
@@ -69,7 +69,7 @@ nav ul li a {
 	font-weight: bold;
 	text-decoration: none;
 	color: rgba(255,255,255,0.8);
-	border-top: 1px solid rgba(0,0,0,0.3);
+	border-top: 1px solid rgba(27,120,177);
 }
 
 nav ul li a:link {
@@ -141,7 +141,7 @@ table, th {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
-	border: 2px solid #000;
+	border: 2px solid #1b78b1;
 	background-color: #bcdff5;
 	width: 400px;
 	text-align: center;
@@ -183,10 +183,6 @@ p, section p {
 	padding: 0 15px;
 }
 
-
-
-
-
 /*--------------------footer rules-----------*/
 div#wrapFoot {
 	background-color: #efb392;
@@ -202,72 +198,51 @@ footer {
 	 
  }
 
- /*-------------------form---------------------------*/
+ /*----------------reservation form------------------------*/
 
 form fieldset {
 	margin: 2rem 15px;
-	border: 1px solid #ab141a;
+	border: 1px solid #1b78b1;
 	border-radius: 10px;
 	padding: .5rem 2%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 form legend {
-	color: #ab141a;
+	color: #000;
 	margin: 0 1rem; 
 	padding: 0 .5rem;
+	font-weight: bold;
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5rem;
 }
 
 form label.top, form div {
 	display: block;
 	padding-top: 1rem;
-	color: #9c2c13;
-	font-size: .8rem;
+	color: #000;	
 }
 
 form label.top input, form label.top select, textarea {
 	-webkit-appearance: none;
 	display: block;
 	font-size: 1rem;
-	border: solid 1px #999;
+	border: solid 1px #1b78b1;
 	border-radius: 4px;
 	padding: .75rem;
 	color: #555;
 	width: 100%;
 	max-width: 20rem;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(252,239,233,0.5) ;
 	margin: 5px 0 10px 0;
 }
 
-form label.danger {
-	display: block;
-	padding: 1rem 0;
-	font-size: .8rem;
-	color: #ab141a;
-}
-
-form label.stormslide {
-	font-size: .8rem;
-	color: #ab141a;
-	display: block;
-	padding: .75rem 0;
-	
-	
-}
-
-form label.sbs {
-	display: block;
-	padding: .75rem 0;
-	color: #555;
-	
-}
-
 form input.submitBtn {
-	border: solid 1px #ab141a;
-	background-color: #fff9cc; 
-	color: #ab141a;
+	border: solid 2px #1b78b1;
+	background-color: #bcdff5; 
+	color: #000;
 	border-radius: 1rem;
-	box-shadow: 0px 0px 10px 0px #ab141a;
+	box-shadow: 0px 0px 10px 3px #de6321;
 	padding: .75rem 1.5rem;
 	margin: 0 0 2rem 2%;
 	width: 96%;
@@ -276,24 +251,46 @@ form input.submitBtn {
 	font-weight: bold;
 }
 
-
 form label.top input:required {
-	border-left: #ab141a solid 6px;
+	border-left: #de2121 solid 3px;
+	border-right: #de2121 solid 3px;
 }
 
 form label.top input:required:valid {
-	border-left: green solid 6px;
+	border-left: green solid 3px;
+	border-right: green solid 3px;
 }
 
 textarea {
 	resize: none;
 }
-
-
-#ratingvalue {
-	margin: 0 15px;
+/*--------------contact page ----------------*/
+.conpage, conpage p {
+	display: grid;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
+div.contactbox {
+	font-weight: normal;
+	padding: 10px;
+}
+
+#rigmap {
+	width: 100%;
+	padding: 10px;
+}
+.contactSub {
+	border: solid 1px #1b78b1;
+	background-color: rgba(27, 120, 177,0.2); 
+	color: #000;
+	border-radius: 1rem;
+	padding: 10px;
+	width: 100%;
+	max-width: 10rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

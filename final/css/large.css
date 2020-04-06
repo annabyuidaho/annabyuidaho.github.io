@@ -9,7 +9,10 @@ header h1 {
 		padding: 10px;
 		font-size: 3rem;
 	}
-
+.conpage {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 	
 		
 main h1, h2, h3 {padding: 0;}
