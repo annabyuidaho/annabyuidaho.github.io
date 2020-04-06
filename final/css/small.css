@@ -33,9 +33,7 @@ header h1 {
 
 header h2 {
 	font-size: 1rem;
-	font-family: 'Montserrat', sans-serif;
-	
-	
+	font-family: 'Montserrat', sans-serif;	
 }
 
 /*-----------------nav rules--------------*/
@@ -323,7 +321,53 @@ section.weatsum img {
 	width: 25px;
 }
 
+.art a:link {
+	color: #000;
+	text-decoration: none;
+}
 
+.art a:hover {
+	color: rgba(27,120,177,1);
+	text-decoration: underline;
+}
+
+.art a:visited {
+	color: #efb392;
+}
+
+.credits {
+	font-style: italic;
+}
+
+.art h3 {
+	padding: 10px;
+}
+
+.artlist {
+	list-style-type:square;
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+	border: 1px solid #1b78b1;
+}
+
+ div.contactinfo {
+	 display: grid;
+	 grid-template-columns: 1fr;
+ }
+
+div.contactinfo p {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 15px;
+}
+
+.contactp {
+	font-weight: bold;
+}
+.action {
+	text-align: center;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
