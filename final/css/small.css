@@ -369,6 +369,31 @@ div.contactinfo p {
 	text-align: center;
 }
 
+/*---------------trips page-----------*/
+.alltrips {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.alltrips h2 {
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	font-size: 2rem;
+	text-shadow: 2px 2px #d3eaf8;
+}
+
+.alltrips img {
+	width: 100%;
+}
+.trip1, .trip2, .trip3 {
+	background-color: #f8e0d3;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 10px 0px #d3eaf8;
+}
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

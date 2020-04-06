@@ -70,7 +70,17 @@ section.weatsum {
 	 display: grid;
 	 grid-template-columns: 1fr 1fr 1fr;
  }		
-		
-		
+/*-------------trips page-----------*/	
+.alltrips {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}	
+
+.trip1, .trip2, .trip3 {
+	
+}
+
+
+
 		
 } /*end medium */

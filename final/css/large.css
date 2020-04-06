@@ -33,7 +33,11 @@ section.weatsum p {
 	display: inline;
 	
 }
-
-
+/*-------trips page--------*/
+.alltrips {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
 	
 } /*end large */
