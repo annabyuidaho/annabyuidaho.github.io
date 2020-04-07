@@ -346,6 +346,7 @@ section.weatsum img {
 .artlist {
 	list-style-type:square;
 	font-family: 'Montserrat', sans-serif;
+	margin: 15px;
 }
 
 hr {
