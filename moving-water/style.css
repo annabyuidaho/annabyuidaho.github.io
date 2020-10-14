@@ -1,10 +1,12 @@
-@import url ('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 *
 {
 	margin: 0;
 	padding 0;
 	box-sizing: border-box;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: 'Poppins', Impact, Charcoal, sans-serif;	
 }
 body {
 /* use display: inline; when using more then one line of text. I still can't figure out how to center the text this way though. But it allows me to see all the text.
