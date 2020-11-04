@@ -1,0 +1,42 @@
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #013E75; // Dark Blue - Action color
+$color-2: #99CEDC; // Light Blue
+$color-3: #D44013; // Orange
+$color-4: #E1B923; // Yellow
+$color-5: #FFFFFF; // White
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+body {
+    /* this is the page background */
+    //background-color: $color-1;
+    background: darken($color-1, 5%);
+    color: $color-5;
+  }
+
+
+/*Navigation colors*/
+a:link,
+a:visited {
+  color: $color-4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-3;
+  border: 1px dotted $color-2;
+  text-decoration: underline;
+}
+
+a:focus,
+a:active {
+  color: $color-5;
+  background-color: $color-3;
+  text-decoration: underline;
+}
+
+

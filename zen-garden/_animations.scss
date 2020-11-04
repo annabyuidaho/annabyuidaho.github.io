@@ -1,0 +1,188 @@
+@media only screen and (min-width: 35rem) {
+
+	.page-wrapper {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.page-wrapper::before {
+   content: "";
+   position: absolute;
+   background-image: url("images/old-tv2.png");
+   background-repeat: no-repeat;
+   z-index: 3;
+   top: 230px;
+   left: 17%;
+   width: 63%;
+   height: 567px;
+   transform: scale(0.8);
+   /* display: none; - use in media query when width is less than 80em */
+}
+	
+	.supporting {
+  position: absolute;
+  left: 21.5%;
+  top: 100px;
+  width: 475px;
+  z-index: 1;
+  height: 380px;
+  padding-left: 45px;
+  overflow: hidden;
+  margin-top: 12em;
+}
+	
+	.supporting div {
+  color: #013E75;
+  padding: 2px 50px 2px 50px;
+  box-sizing: border-box;
+}
+
+.explanation {
+  background: #0281f3;
+  animation: slide 20s linear infinite;
+}
+
+.participation {
+  background: #86c5d5;
+}
+.participation h3 {
+  color: #013E75;
+}
+
+.benefits {
+  background: #ee6d45;
+}
+
+.requirements {
+  background: #cea91c;
+}
+.requirements h3 {
+  color: #013E75;
+}
+.requirements a {
+  color: #013E75;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: -1500px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/* .extra1 {
+  position: fixed;
+  background-image: url("images/yellow-fish.png");
+  background-repeat: no-repeat;
+  z-index: -3;
+  width: 300px;
+  height: 200px;
+  bottom: 300px;
+  left: 0;
+  animation: slide-fish 8s forwards infinite;
+  overflow: hidden;
+  transform: scale(0.7);
+} */
+
+body::after {
+   content: "";
+   position: fixed;
+   background-image: url("images/yellow-fish.png");
+   background-repeat: no-repeat;
+   z-index: -3;
+   width: 300px;
+   height: 200px;
+   bottom: 300px;
+   left: 0;
+   animation: slide-fish 8s forwards infinite;
+   overflow: hidden;
+   transform: scale(0.7);
+}
+
+@keyframes slide-fish {
+  0% {
+    left: -400px;
+  }
+  25% {
+    left: 400px;
+  }
+  50% {
+    left: 800px;
+  }
+  100% {
+    left: 2000px;
+  }
+}
+
+.extra2 {
+  background-image: url("images/blue-fish.png");
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: fixed;
+  animation: slide-fish 10s reverse infinite;
+  width: 800px;
+  height: 300px;
+  left: -100px;
+  top: 400px;
+  overflow: hidden;
+  transform: scale(0.7);
+}
+
+/* div.extra3 {
+  position: absolute;
+  background-image: url("images/old-tv2.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: 230px;
+  left: 17%;
+  width: 63%;
+  height: 567px;
+  transform: scale(0.8);
+} */
+
+.extra4 {
+  background-image: url("images/bubbles.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: fixed;
+  animation: animatebubble 15s linear infinite;
+  width: 500px;
+  height: 500px;
+}
+
+@keyframes animatebubble {
+  0% {
+    margin-top: 0%;
+  }
+  100% {
+    margin-top: -150%;
+  }
+}
+.extra5 {
+  background-image: url("images/boot.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: fixed;
+  animation: MoveUpDown 25s linear infinite;
+  width: 200px;
+  height: 2000px;
+  left: 85%;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: -800px;
+  }
+  50% {
+    bottom: -180px;
+  }
+  100% {
+    bottom: -800px;
+  }
+}
+} /*end of media query */

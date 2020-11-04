@@ -1,0 +1,23 @@
+@media only screen and (min-width: 35rem) {
+	h1 {
+  font-size: 6em;
+	}
+	
+	.intro header h1, h2 {
+  width: 1100px;
+	}
+	
+	.intro p {
+  font-size: 12px;
+}
+	
+	.main footer {
+  position: fixed;
+	}
+	
+	.summary, .preamble {
+  line-height: 110%;
+  width: 52%;
+	}
+
+} /*end of media query */
