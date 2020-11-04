@@ -192,9 +192,7 @@ li {
     line-height: 110%;
     width: 52%;
   }
-}
-/*end of media query */
-@media only screen and (min-width: 35rem) {
+
   .page-wrapper {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -272,18 +270,18 @@ li {
     }
   }
   /* .extra1 {
-    position: fixed;
-    background-image: url("images/yellow-fish.png");
-    background-repeat: no-repeat;
-    z-index: -3;
-    width: 300px;
-    height: 200px;
-    bottom: 300px;
-    left: 0;
-    animation: slide-fish 8s forwards infinite;
-    overflow: hidden;
-    transform: scale(0.7);
-  } */
+  position: fixed;
+  background-image: url("images/yellow-fish.png");
+  background-repeat: no-repeat;
+  z-index: -3;
+  width: 300px;
+  height: 200px;
+  bottom: 300px;
+  left: 0;
+  animation: slide-fish 8s forwards infinite;
+  overflow: hidden;
+  transform: scale(0.7);
+   } */
   body::after {
     content: "";
     position: fixed;
@@ -328,16 +326,16 @@ li {
   }
 
   /* div.extra3 {
-    position: absolute;
-    background-image: url("images/old-tv2.png");
-    background-repeat: no-repeat;
-    z-index: 1;
-    top: 230px;
-    left: 17%;
-    width: 63%;
-    height: 567px;
-    transform: scale(0.8);
-  } */
+  position: absolute;
+  background-image: url("images/old-tv2.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: 230px;
+  left: 17%;
+  width: 63%;
+  height: 567px;
+  transform: scale(0.8);
+   } */
   .extra4 {
     background-image: url("images/bubbles.png");
     background-repeat: no-repeat;
