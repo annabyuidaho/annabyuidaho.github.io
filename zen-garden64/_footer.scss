@@ -1,0 +1,34 @@
+.main footer {
+
+  top: 87.5%;
+  left: 35%;
+  justify-content: center;
+  display: flex;
+}
+
+.main footer a {
+  font-weight: bold;
+  background-color: #03a9f4;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 10px;
+  cursor: pointer;
+  background: linear-gradient(to top, #34696f, #2f5f63);
+  border-radius: 40px;
+  border: solid 1px #2f5f63;
+  box-shadow: 4px 4px 0 #1b383b;
+  text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.main footer a:hover {
+  color: #D44013;
+}
+
+.main footer a:focus,
+a:active {
+  color: #013E75;
+}

@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;700;900&display=swap");
+body {
+  /* this is the page background */
+  background: #01315c;
+  color: #FFFFFF;
+}
+
+/*Navigation colors*/
+a:link,
+a:visited {
+  color: #E1B923;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D44013;
+  border: 1px dotted #99CEDC;
+  text-decoration: underline;
+}
+
+a:focus,
+a:active {
+  color: #FFFFFF;
+  background-color: #D44013;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 6em;
+  color: #E1B923;
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  text-align: center;
+  color: #E1B923;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.25em;
+  text-align: center;
+  color: #E1B923;
+}
+
+.main footer {
+  top: 87.5%;
+  left: 35%;
+  justify-content: center;
+  display: flex;
+}
+
+.main footer a {
+  font-weight: bold;
+  background-color: #03a9f4;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 10px;
+  cursor: pointer;
+  background: linear-gradient(to top, #34696f, #2f5f63);
+  border-radius: 40px;
+  border: solid 1px #2f5f63;
+  box-shadow: 4px 4px 0 #1b383b;
+  text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.main footer a:hover {
+  color: #D44013;
+}
+
+.main footer a:focus,
+a:active {
+  color: #013E75;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4em;
+  color: #E1B923;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #E1B923, #FFFFFF, #E1B923);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  color: #E1B923;
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  text-align: center;
+  color: #E1B923;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.25em;
+  text-align: center;
+  color: #E1B923;
+}
+
+.intro {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+}
+
+.sidebar {
+  grid-column-start: 12;
+  grid-column-end: 16;
+  grid-row-start: 2;
+  font-size: 12px;
+  margin-top: 16em;
+}
+
+body {
+  max-width: 80rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro header h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 35rem) {
+  h1 {
+    font-size: 6em;
+  }
+
+  .intro header h1, h2 {
+    width: 1100px;
+  }
+
+  .intro p {
+    font-size: 12px;
+  }
+
+  .main footer {
+    position: fixed;
+  }
+
+  .summary, .preamble {
+    line-height: 110%;
+    width: 52%;
+  }
+
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-wrapper::before {
+    content: "";
+    position: absolute;
+    background-image: url("images/old-tv2.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+    top: 230px;
+    left: 17%;
+    width: 63%;
+    height: 567px;
+    transform: scale(0.8);
+    /* display: none; - use in media query when width is less than 80em */
+  }
+
+  .supporting {
+    position: absolute;
+    left: 21.5%;
+    top: 100px;
+    width: 475px;
+    z-index: 1;
+    height: 380px;
+    padding-left: 45px;
+    overflow: hidden;
+    margin-top: 12em;
+  }
+
+  .supporting div {
+    color: #013E75;
+    padding: 2px 50px 2px 50px;
+    box-sizing: border-box;
+  }
+
+  .explanation {
+    background: #0281f3;
+    animation: slide 20s linear infinite;
+  }
+
+  .participation {
+    background: #86c5d5;
+  }
+
+  .participation h3 {
+    color: #013E75;
+  }
+
+  .benefits {
+    background: #ee6d45;
+  }
+
+  .requirements {
+    background: #cea91c;
+  }
+
+  .requirements h3 {
+    color: #013E75;
+  }
+
+  .requirements a {
+    color: #013E75;
+  }
+
+  @keyframes slide {
+    0% {
+      margin-top: -1500px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  /* .extra1 {
+  position: fixed;
+  background-image: url("images/yellow-fish.png");
+  background-repeat: no-repeat;
+  z-index: -3;
+  width: 300px;
+  height: 200px;
+  bottom: 300px;
+  left: 0;
+  animation: slide-fish 8s forwards infinite;
+  overflow: hidden;
+  transform: scale(0.7);
+   } */
+  body::after {
+    content: "";
+    position: fixed;
+    background-image: url("images/yellow-fish.png");
+    background-repeat: no-repeat;
+    z-index: -3;
+    width: 300px;
+    height: 200px;
+    bottom: 300px;
+    left: 0;
+    animation: slide-fish 8s forwards infinite;
+    overflow: hidden;
+    transform: scale(0.7);
+  }
+
+  @keyframes slide-fish {
+    0% {
+      left: -400px;
+    }
+    25% {
+      left: 400px;
+    }
+    50% {
+      left: 800px;
+    }
+    100% {
+      left: 2000px;
+    }
+  }
+  .extra2 {
+    background-image: url("images/blue-fish.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: fixed;
+    animation: slide-fish 10s reverse infinite;
+    width: 800px;
+    height: 300px;
+    left: -100px;
+    top: 400px;
+    overflow: hidden;
+    transform: scale(0.7);
+  }
+
+  /* div.extra3 {
+  position: absolute;
+  background-image: url("images/old-tv2.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: 230px;
+  left: 17%;
+  width: 63%;
+  height: 567px;
+  transform: scale(0.8);
+   } */
+  .extra4 {
+    background-image: url("images/bubbles.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: fixed;
+    animation: animatebubble 15s linear infinite;
+    width: 500px;
+    height: 500px;
+  }
+
+  @keyframes animatebubble {
+    0% {
+      margin-top: 0%;
+    }
+    100% {
+      margin-top: -150%;
+    }
+  }
+  .extra5 {
+    background-image: url("images/boot.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: fixed;
+    animation: MoveUpDown 25s linear infinite;
+    width: 200px;
+    height: 2000px;
+    left: 85%;
+    bottom: 0;
+  }
+
+  @keyframes MoveUpDown {
+    0% {
+      bottom: -800px;
+    }
+    50% {
+      bottom: -180px;
+    }
+    100% {
+      bottom: -800px;
+    }
+  }
+}
+/*end of media query */
+
+/*# sourceMappingURL=style.css.map */
