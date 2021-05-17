@@ -1,0 +1,45 @@
+Pinyon script: 
+
+link: 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet"> 
+
+css: 
+font-family: 'Pinyon Script', cursive;
+
+import:
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+</style> 
+
+
+Montserrat:
+
+link:
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+
+css:
+font-family: 'Montserrat', sans-serif;
+
+import: 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style> 
+
+
+Both: 
+
+link: 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pinyon+Script&display=swap" rel="stylesheet"> 
+
+css:
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Pinyon Script', cursive;
+
+import:
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pinyon+Script&display=swap');
+</style> 

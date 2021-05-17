@@ -1,0 +1,36 @@
+@media only screen and (min-width: 788px) {
+
+nav button {
+	display: none;
+}
+
+nav ul.hide {
+	display: block;
+	
+}
+
+
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	padding: .8rem;
+}
+
+
+#large-social {
+	display: block;
+	text-align: center;
+}
+
+#small-social {
+	display: none;
+}
+
+.calendar-right {
+	padding-left: 5px;
+}
+
+} /*end of medium media query*/

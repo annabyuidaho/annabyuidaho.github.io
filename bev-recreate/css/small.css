@@ -1,0 +1,141 @@
+body {
+	
+	margin: 0;
+	background-image: url(../images/background-bears1.jpg);
+}
+
+header {
+	padding: 20px;
+	margin: 2em 2em 0 2em;
+	background-color: #ffffea;
+	
+}
+
+h1 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 4em;
+	text-align: center;
+	color: #8663a7;
+}
+
+nav button {
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+	color: #ffffea;
+}
+
+nav {
+
+	margin: 0 2em;
+	background-color: #855ea1;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	color: #ffffea;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: .9rem;
+	padding: .5rem 0;
+	text-decoration: none;
+	
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #ffffea;
+}
+
+nav ul li.active a {
+	background-color: #63a088;
+	color: #000000;
+}
+
+nav ul li a:hover {
+	background-color: #b0cfc2;
+	color: #000000;
+}
+
+
+
+nav ul.hide {
+	display: none;
+}
+
+main {
+	display: block;
+	padding: 20px;
+	margin: 0 2em;
+	background-color: #ffffea;
+	
+}
+
+h2 {
+	font-family: 'Abhaya Libre', serif;
+	color: #855ea1;
+	text-align: center;
+}
+
+p {
+	padding: 0 10px;
+	color: #0b0a07;
+	font-family: 'Abhaya Libre', serif;
+}
+
+a:link, a:visited {
+	color: #63a088;
+}
+
+a:hover {
+	border: 1px dotted #855ea1;
+}
+
+.cuddle {
+	display: block;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fa-facebook-square, .fa-calendar {
+	color: #63a088;
+	padding-right: 5px;
+}
+
+#large-social {
+	display: none;
+}
+
+footer {
+	background-color: #855ea1;
+	padding: 20px 20px 40px 20px;
+	margin: 0 2em;
+}
+
+.cottage-img {
+	width: 75px;
+	float: left;
+	margin-right: 10px;
+}
+
+footer p {
+	margin: 0;
+	color: #ffffea;
+	text-align: center;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+} /*end of clear fix*/
+
